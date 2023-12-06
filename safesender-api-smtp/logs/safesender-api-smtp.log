@@ -1,0 +1,1230 @@
+2023-10-25T00:15:13.285-03:00  INFO 38844 --- [main] b.c.r.a.SafesenderApiSmtpApplication     : Starting SafesenderApiSmtpApplication using Java 17.0.3.1 with PID 38844 (C:\Git\rti\safesender-systems\safesender-api-smtp\target\classes started by rafae in C:\Git\rti\safesender-systems\safesender-api-smtp)
+2023-10-25T00:15:13.297-03:00  INFO 38844 --- [main] b.c.r.a.SafesenderApiSmtpApplication     : No active profile set, falling back to 1 default profile: "default"
+2023-10-25T00:15:14.562-03:00  INFO 38844 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-25T00:15:14.562-03:00  INFO 38844 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-25T00:15:14.685-03:00  INFO 38844 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 109 ms. Found 7 JPA repository interfaces.
+2023-10-25T00:15:15.289-03:00  INFO 38844 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-25T00:15:15.289-03:00  INFO 38844 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-10-25T00:15:15.307-03:00  INFO 38844 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18 ms. Found 0 JDBC repository interfaces.
+2023-10-25T00:15:15.873-03:00  INFO 38844 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-10-25T00:15:15.981-03:00  INFO 38844 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-10-25T00:15:16.653-03:00  INFO 38844 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8686 (http)
+2023-10-25T00:15:16.678-03:00  INFO 38844 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-25T00:15:16.679-03:00  INFO 38844 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-25T00:15:16.923-03:00  INFO 38844 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-25T00:15:16.924-03:00  INFO 38844 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3496 ms
+2023-10-25T00:15:17.331-03:00  INFO 38844 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-25T00:15:17.492-03:00  INFO 38844 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-10-25T00:15:17.500-03:00  INFO 38844 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-10-25T00:15:17.891-03:00  INFO 38844 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-25T00:15:18.240-03:00  INFO 38844 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-25T00:15:18.290-03:00  INFO 38844 --- [main] com.zaxxer.hikari.HikariDataSource       : SpringBootJPAHikariCP - Starting...
+2023-10-25T00:15:18.796-03:00  INFO 38844 --- [main] com.zaxxer.hikari.pool.HikariPool        : SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@48ee3c2d
+2023-10-25T00:15:18.801-03:00  INFO 38844 --- [main] com.zaxxer.hikari.HikariDataSource       : SpringBootJPAHikariCP - Start completed.
+2023-10-25T00:15:19.791-03:00  INFO 38844 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-25T00:15:22.177-03:00  INFO 38844 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-25T00:15:22.536-03:00  INFO 38844 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-25T00:15:24.665-03:00  WARN 38844 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-25T00:15:26.376-03:00  WARN 38844 --- [main] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: org.springframework.amqp.rabbit.core.RabbitAdmin
+2023-10-25T00:15:26.462-03:00  INFO 38844 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8686 (http) with context path ''
+2023-10-25T00:15:26.662-03:00  INFO 38844 --- [scheduling-1] br.com.rti.service.CacheService          : renew cache getClientList()
+2023-10-25T00:15:26.663-03:00  INFO 38844 --- [scheduling-1] br.com.rti.service.ClientService         : findAll
+2023-10-25T00:15:26.825-03:00  INFO 38844 --- [main] o.a.c.support.LifecycleStrategySupport   : Autowired property: amqpAdmin on component: spring-rabbitmq as exactly one instance of type: org.springframework.amqp.core.AmqpAdmin (org.springframework.amqp.rabbit.core.RabbitAdmin) found in the registry
+2023-10-25T00:15:26.826-03:00  INFO 38844 --- [main] o.a.c.support.LifecycleStrategySupport   : Autowired property: connectionFactory on component: spring-rabbitmq as exactly one instance of type: org.springframework.amqp.rabbit.connection.ConnectionFactory (org.springframework.amqp.rabbit.connection.CachingConnectionFactory) found in the registry
+2023-10-25T00:15:27.052-03:00  INFO 38844 --- [main] o.a.c.impl.engine.AbstractCamelContext   : Apache Camel 4.0.1 (camel-1) is starting
+2023-10-25T00:15:27.060-03:00  INFO 38844 --- [main] o.a.c.p.aggregate.AggregateProcessor     : Defaulting to MemoryAggregationRepository
+2023-10-25T00:15:27.061-03:00  INFO 38844 --- [main] o.a.c.p.aggregate.AggregateProcessor     : Using CompletionTimeout to trigger after 1000 millis of inactivity.
+2023-10-25T00:15:27.110-03:00  INFO 38844 --- [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:55601]
+2023-10-25T00:15:27.313-03:00  INFO 38844 --- [main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#75b5d09:0/SimpleConnection@40c858fc [delegate=amqp://pmtaqueue@127.0.0.1:55601/, localPort=49847]
+2023-10-25T00:15:27.393-03:00  INFO 38844 --- [main] o.a.c.c.s.SpringRabbitMQEndpoint         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (smtp.EmailToSaveAndSend.Queue)durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2023-10-25T00:15:27.447-03:00  INFO 38844 --- [main] .c.s.CamelDirectMessageListenerContainer : Container initialized for queues: [smtp.EmailToSaveAndSend.Queue]
+2023-10-25T00:15:27.453-03:00  INFO 38844 --- [main] o.a.c.impl.engine.AbstractCamelContext   : Routes startup (started:3)
+2023-10-25T00:15:27.453-03:00  INFO 38844 --- [main] o.a.c.impl.engine.AbstractCamelContext   :     Started EmailToSaveAndSendRabbitMqConsumerRoute (spring-rabbitmq://smtp.exchange)
+2023-10-25T00:15:27.453-03:00  INFO 38844 --- [main] o.a.c.impl.engine.AbstractCamelContext   :     Started EmailToSaveAndSendRabbitMqProducerRoute (direct://emailToSaveAndSend)
+2023-10-25T00:15:27.454-03:00  INFO 38844 --- [main] o.a.c.impl.engine.AbstractCamelContext   :     Started WebhookDiscardedToSaveRabbitMqProducerRoute (direct://webhookDiscarded)
+2023-10-25T00:15:27.454-03:00  INFO 38844 --- [main] o.a.c.impl.engine.AbstractCamelContext   : Apache Camel 4.0.1 (camel-1) started in 400ms (build:0ms init:0ms start:400ms)
+2023-10-25T00:15:27.463-03:00  INFO 38844 --- [main] b.c.r.a.SafesenderApiSmtpApplication     : Started SafesenderApiSmtpApplication in 15.125 seconds (process running for 17.286)
+2023-10-25T00:15:27.474-03:00  INFO 38844 --- [not.a.Spring.bean-1] .c.s.CamelDirectMessageListenerContainer : SimpleConsumer [queue=smtp.EmailToSaveAndSend.Queue, index=0, consumerTag=amq.ctag-RqEuBFvpsbnRgxv46SLF0A identity=73238eea] started
+2023-10-25T00:16:00.579-03:00  INFO 38844 --- [http-nio-8686-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-25T00:16:00.580-03:00  INFO 38844 --- [http-nio-8686-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-25T00:16:00.582-03:00  INFO 38844 --- [http-nio-8686-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-10-25T00:16:00.841-03:00  INFO 38844 --- [http-nio-8686-exec-1] b.c.r.a.c.MailSenderController           : /one internalid:jj0122@20231025001600832xbp7@u0001.wl001 | uniqueid:jj0122 | sender:u0001.wl001
+2023-10-25T00:16:03.118-03:00  INFO 38844 --- [Camel (camel-1) thread #5 - Delay] b.c.r.a.p.MailSaveBatchProcessor         : INICIO - MailSaveProcessor.process()
+2023-10-25T00:16:03.119-03:00  INFO 38844 --- [Camel (camel-1) thread #5 - Delay] b.c.r.a.p.MailSaveBatchProcessor         : INICIO - MailSaveProcessor 1 mensagens
+2023-10-25T00:16:03.119-03:00  INFO 38844 --- [Camel (camel-1) thread #5 - Delay] br.com.rti.service.MailSaveService       : INICIO saveMail LOOP - 2023-10-25T00:16:03.119328300 
+2023-10-25T00:16:03.367-03:00  INFO 38844 --- [Camel (camel-1) thread #5 - Delay] br.com.rti.service.MailSaveService       : FIM saveMail LOOP - 2023-10-25T00:16:03.367073800 - totalTime(milli): 247 - totalTime(seconds): 0
+2023-10-25T00:16:03.368-03:00  INFO 38844 --- [Camel (camel-1) thread #5 - Delay] b.c.r.a.p.MailSaveBatchProcessor         : FIM - MailSaveProcessor 1 mensagens
+2023-10-25T00:16:03.369-03:00  INFO 38844 --- [Camel (camel-1) thread #5 - Delay] r.a.p.MensagemSenderBatchSpringProcessor : INICIO - MensagemBatchSenderSpringProcessor.process()
+2023-10-25T00:16:03.370-03:00  INFO 38844 --- [Camel (camel-1) thread #5 - Delay] r.a.p.MensagemSenderBatchSpringProcessor : INICIO - mailSenderSpringService 1 mensagens
+2023-10-25T00:16:03.370-03:00  INFO 38844 --- [Camel (camel-1) thread #5 - Delay] b.c.r.a.s.MailSenderSpringService        : INICIO sendMail LOOP - 2023-10-25T00:16:03.370756300 
+2023-10-25T00:16:27.147-03:00  INFO 38844 --- [scheduling-1] br.com.rti.service.CacheService          : renew cache getClientList()
+2023-10-25T00:16:27.149-03:00  INFO 38844 --- [scheduling-1] br.com.rti.service.ClientService         : findAll
+2023-10-25T00:16:40.906-03:00  INFO 38844 --- [Camel (camel-1) thread #5 - Delay] b.c.r.a.s.MailSenderSpringService        : FIM sendMail LOOP - 2023-10-25T00:16:40.905580300 - totalTime(milli): 37534 - totalTime(seconds): 37
+2023-10-25T00:16:48.921-03:00  INFO 38844 --- [Camel (camel-1) thread #5 - Delay] b.c.r.a.s.MailSenderSpringService        : INICIO sendToDiscard: 1
+2023-10-25T00:17:05.377-03:00  INFO 38844 --- [Camel (camel-1) thread #5 - Delay] b.c.r.a.s.MailSenderSpringService        : EMAIL DISCARDED internalid:jj0122@20231025001600832xbp7@u0001.wl001
+2023-10-25T00:17:18.468-03:00  INFO 38844 --- [Camel (camel-1) thread #5 - Delay] b.c.r.a.s.MailSenderSpringService        : FIM sendToDiscard: 1
+2023-10-25T00:17:18.469-03:00  INFO 38844 --- [Camel (camel-1) thread #5 - Delay] r.a.p.MensagemSenderBatchSpringProcessor : FIM - mailSenderSpringService 1 mensagens
+2023-10-25T00:17:27.168-03:00  INFO 38844 --- [scheduling-1] br.com.rti.service.CacheService          : renew cache getClientList()
+2023-10-25T00:17:27.168-03:00  INFO 38844 --- [scheduling-1] br.com.rti.service.ClientService         : findAll
+2023-10-25T00:18:27.187-03:00  INFO 38844 --- [scheduling-1] br.com.rti.service.CacheService          : renew cache getClientList()
+2023-10-25T00:18:27.187-03:00  INFO 38844 --- [scheduling-1] br.com.rti.service.ClientService         : findAll
+2023-10-25T00:19:27.204-03:00  INFO 38844 --- [scheduling-1] br.com.rti.service.CacheService          : renew cache getClientList()
+2023-10-25T00:19:27.204-03:00  INFO 38844 --- [scheduling-1] br.com.rti.service.ClientService         : findAll
+2023-10-25T00:20:27.221-03:00  INFO 38844 --- [scheduling-1] br.com.rti.service.CacheService          : renew cache getClientList()
+2023-10-25T00:20:27.221-03:00  INFO 38844 --- [scheduling-1] br.com.rti.service.ClientService         : findAll
+2023-10-25T00:21:27.237-03:00  INFO 38844 --- [scheduling-1] br.com.rti.service.CacheService          : renew cache getClientList()
+2023-10-25T00:21:27.237-03:00  INFO 38844 --- [scheduling-1] br.com.rti.service.ClientService         : findAll
+2023-10-25T00:22:27.255-03:00  INFO 38844 --- [scheduling-1] br.com.rti.service.CacheService          : renew cache getClientList()
+2023-10-25T00:22:27.255-03:00  INFO 38844 --- [scheduling-1] br.com.rti.service.ClientService         : findAll
+2023-10-25T00:23:27.271-03:00  INFO 38844 --- [scheduling-1] br.com.rti.service.CacheService          : renew cache getClientList()
+2023-10-25T00:23:27.271-03:00  INFO 38844 --- [scheduling-1] br.com.rti.service.ClientService         : findAll
+2023-10-25T00:24:27.287-03:00  INFO 38844 --- [scheduling-1] br.com.rti.service.CacheService          : renew cache getClientList()
+2023-10-25T00:24:27.287-03:00  INFO 38844 --- [scheduling-1] br.com.rti.service.ClientService         : findAll
+2023-10-25T00:25:03.769-03:00  INFO 38844 --- [http-nio-8686-exec-5] b.c.r.a.c.MailSenderController           : /one internalid:jj0122@20231025002503769brh2@u0001.wl001 | uniqueid:jj0122 | sender:u0001.wl001
+2023-10-25T00:25:06.802-03:00  INFO 38844 --- [Camel (camel-1) thread #5 - Delay] b.c.r.a.p.MailSaveBatchProcessor         : INICIO - MailSaveProcessor.process()
+2023-10-25T00:25:06.802-03:00  INFO 38844 --- [Camel (camel-1) thread #5 - Delay] b.c.r.a.p.MailSaveBatchProcessor         : INICIO - MailSaveProcessor 1 mensagens
+2023-10-25T00:25:06.802-03:00  INFO 38844 --- [Camel (camel-1) thread #5 - Delay] br.com.rti.service.MailSaveService       : INICIO saveMail LOOP - 2023-10-25T00:25:06.802142900 
+2023-10-25T00:25:06.840-03:00  INFO 38844 --- [Camel (camel-1) thread #5 - Delay] br.com.rti.service.MailSaveService       : FIM saveMail LOOP - 2023-10-25T00:25:06.840407800 - totalTime(milli): 38 - totalTime(seconds): 0
+2023-10-25T00:25:06.840-03:00  INFO 38844 --- [Camel (camel-1) thread #5 - Delay] b.c.r.a.p.MailSaveBatchProcessor         : FIM - MailSaveProcessor 1 mensagens
+2023-10-25T00:25:06.841-03:00  INFO 38844 --- [Camel (camel-1) thread #5 - Delay] r.a.p.MensagemSenderBatchSpringProcessor : INICIO - MensagemBatchSenderSpringProcessor.process()
+2023-10-25T00:25:06.841-03:00  INFO 38844 --- [Camel (camel-1) thread #5 - Delay] r.a.p.MensagemSenderBatchSpringProcessor : INICIO - mailSenderSpringService 1 mensagens
+2023-10-25T00:25:06.841-03:00  INFO 38844 --- [Camel (camel-1) thread #5 - Delay] b.c.r.a.s.MailSenderSpringService        : INICIO sendMail LOOP - 2023-10-25T00:25:06.841534800 
+2023-10-25T00:25:06.843-03:00  INFO 38844 --- [Camel (camel-1) thread #5 - Delay] b.c.r.a.s.MailSenderSpringService        : FIM sendMail LOOP - 2023-10-25T00:25:06.843167900 - totalTime(milli): 1 - totalTime(seconds): 0
+2023-10-25T00:25:06.843-03:00  INFO 38844 --- [Camel (camel-1) thread #5 - Delay] b.c.r.a.s.MailSenderSpringService        : INICIO sendToDiscard: 1
+2023-10-25T00:25:06.843-03:00  INFO 38844 --- [Camel (camel-1) thread #5 - Delay] b.c.r.a.s.MailSenderSpringService        : EMAIL DISCARDED internalid:jj0122@20231025002503769brh2@u0001.wl001
+2023-10-25T00:25:06.844-03:00  INFO 38844 --- [Camel (camel-1) thread #5 - Delay] b.c.r.a.s.MailSenderSpringService        : FIM sendToDiscard: 1
+2023-10-25T00:25:06.844-03:00  INFO 38844 --- [Camel (camel-1) thread #5 - Delay] r.a.p.MensagemSenderBatchSpringProcessor : FIM - mailSenderSpringService 1 mensagens
+2023-10-25T00:25:27.299-03:00  INFO 38844 --- [scheduling-1] br.com.rti.service.CacheService          : renew cache getClientList()
+2023-10-25T00:25:27.299-03:00  INFO 38844 --- [scheduling-1] br.com.rti.service.ClientService         : findAll
+2023-10-25T00:26:27.312-03:00  INFO 38844 --- [scheduling-1] br.com.rti.service.CacheService          : renew cache getClientList()
+2023-10-25T00:26:27.312-03:00  INFO 38844 --- [scheduling-1] br.com.rti.service.ClientService         : findAll
+2023-10-25T00:27:27.325-03:00  INFO 38844 --- [scheduling-1] br.com.rti.service.CacheService          : renew cache getClientList()
+2023-10-25T00:27:27.325-03:00  INFO 38844 --- [scheduling-1] br.com.rti.service.ClientService         : findAll
+2023-10-25T00:27:33.373-03:00  INFO 38844 --- [http-nio-8686-exec-8] b.c.r.a.c.MailSenderController           : /one internalid:jj0122@20231025002733373pevp@u0001.wl001 | uniqueid:jj0122 | sender:u0001.wl001
+2023-10-25T00:27:36.010-03:00  INFO 38844 --- [Camel (camel-1) thread #9 - Delay] b.c.r.a.p.MailSaveBatchProcessor         : INICIO - MailSaveProcessor.process()
+2023-10-25T00:27:36.010-03:00  INFO 38844 --- [Camel (camel-1) thread #9 - Delay] b.c.r.a.p.MailSaveBatchProcessor         : INICIO - MailSaveProcessor 1 mensagens
+2023-10-25T00:27:36.010-03:00  INFO 38844 --- [Camel (camel-1) thread #9 - Delay] br.com.rti.service.MailSaveService       : INICIO saveMail LOOP - 2023-10-25T00:27:36.010038300 
+2023-10-25T00:27:36.042-03:00  INFO 38844 --- [Camel (camel-1) thread #9 - Delay] br.com.rti.service.MailSaveService       : FIM saveMail LOOP - 2023-10-25T00:27:36.042784900 - totalTime(milli): 32 - totalTime(seconds): 0
+2023-10-25T00:27:36.042-03:00  INFO 38844 --- [Camel (camel-1) thread #9 - Delay] b.c.r.a.p.MailSaveBatchProcessor         : FIM - MailSaveProcessor 1 mensagens
+2023-10-25T00:27:36.042-03:00  INFO 38844 --- [Camel (camel-1) thread #9 - Delay] r.a.p.MensagemSenderBatchSpringProcessor : INICIO - MensagemBatchSenderSpringProcessor.process()
+2023-10-25T00:27:36.043-03:00  INFO 38844 --- [Camel (camel-1) thread #9 - Delay] r.a.p.MensagemSenderBatchSpringProcessor : INICIO - mailSenderSpringService 1 mensagens
+2023-10-25T00:27:36.043-03:00  INFO 38844 --- [Camel (camel-1) thread #9 - Delay] b.c.r.a.s.MailSenderSpringService        : INICIO sendMail LOOP - 2023-10-25T00:27:36.043291900 
+2023-10-25T00:27:36.044-03:00  INFO 38844 --- [Camel (camel-1) thread #9 - Delay] b.c.r.a.s.MailSenderSpringService        : FIM sendMail LOOP - 2023-10-25T00:27:36.044384 - totalTime(milli): 1 - totalTime(seconds): 0
+2023-10-25T00:27:36.044-03:00  INFO 38844 --- [Camel (camel-1) thread #9 - Delay] b.c.r.a.s.MailSenderSpringService        : INICIO sendToDiscard: 1
+2023-10-25T00:27:36.044-03:00  INFO 38844 --- [Camel (camel-1) thread #9 - Delay] b.c.r.a.s.MailSenderSpringService        : EMAIL DISCARDED internalid:jj0122@20231025002733373pevp@u0001.wl001
+2023-10-25T00:27:36.044-03:00  INFO 38844 --- [Camel (camel-1) thread #9 - Delay] b.c.r.a.s.MailSenderSpringService        : FIM sendToDiscard: 1
+2023-10-25T00:27:36.044-03:00  INFO 38844 --- [Camel (camel-1) thread #9 - Delay] r.a.p.MensagemSenderBatchSpringProcessor : FIM - mailSenderSpringService 1 mensagens
+2023-10-25T00:28:27.342-03:00  INFO 38844 --- [scheduling-1] br.com.rti.service.CacheService          : renew cache getClientList()
+2023-10-25T00:28:27.342-03:00  INFO 38844 --- [scheduling-1] br.com.rti.service.ClientService         : findAll
+2023-10-25T00:29:27.356-03:00  INFO 38844 --- [scheduling-1] br.com.rti.service.CacheService          : renew cache getClientList()
+2023-10-25T00:29:27.356-03:00  INFO 38844 --- [scheduling-1] br.com.rti.service.ClientService         : findAll
+2023-10-25T00:30:27.371-03:00  INFO 38844 --- [scheduling-1] br.com.rti.service.CacheService          : renew cache getClientList()
+2023-10-25T00:30:27.372-03:00  INFO 38844 --- [scheduling-1] br.com.rti.service.ClientService         : findAll
+2023-10-25T00:31:27.393-03:00  INFO 38844 --- [scheduling-1] br.com.rti.service.CacheService          : renew cache getClientList()
+2023-10-25T00:31:27.393-03:00  INFO 38844 --- [scheduling-1] br.com.rti.service.ClientService         : findAll
+2023-10-25T00:32:24.952-03:00  INFO 38844 --- [RMI TCP Connection(28)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-10-25T00:32:24.992-03:00  INFO 38844 --- [RMI TCP Connection(28)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-10-25T00:32:24.994-03:00  INFO 38844 --- [RMI TCP Connection(28)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-10-25T00:32:25.006-03:00  INFO 38844 --- [RMI TCP Connection(28)-127.0.0.1] o.a.c.impl.engine.AbstractCamelContext   : Apache Camel 4.0.1 (camel-1) is shutting down (timeout:45s)
+2023-10-25T00:32:25.018-03:00  INFO 38844 --- [Camel (camel-1) thread #15 - ShutdownTask] .c.s.CamelDirectMessageListenerContainer : Successfully waited for consumers to finish.
+2023-10-25T00:32:25.028-03:00  INFO 38844 --- [RMI TCP Connection(28)-127.0.0.1] o.a.c.impl.engine.AbstractCamelContext   : Routes stopped (stopped:3)
+2023-10-25T00:32:25.029-03:00  INFO 38844 --- [RMI TCP Connection(28)-127.0.0.1] o.a.c.impl.engine.AbstractCamelContext   :     Stopped WebhookDiscardedToSaveRabbitMqProducerRoute (direct://webhookDiscarded)
+2023-10-25T00:32:25.029-03:00  INFO 38844 --- [RMI TCP Connection(28)-127.0.0.1] o.a.c.impl.engine.AbstractCamelContext   :     Stopped EmailToSaveAndSendRabbitMqProducerRoute (direct://emailToSaveAndSend)
+2023-10-25T00:32:25.029-03:00  INFO 38844 --- [RMI TCP Connection(28)-127.0.0.1] o.a.c.impl.engine.AbstractCamelContext   :     Stopped EmailToSaveAndSendRabbitMqConsumerRoute (spring-rabbitmq://smtp.exchange)
+2023-10-25T00:32:25.034-03:00  INFO 38844 --- [RMI TCP Connection(28)-127.0.0.1] o.a.c.impl.engine.AbstractCamelContext   : Apache Camel 4.0.1 (camel-1) shutdown in 28ms (uptime:16m57s)
+2023-10-25T00:32:25.056-03:00  INFO 38844 --- [RMI TCP Connection(28)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-25T00:32:25.061-03:00  INFO 38844 --- [RMI TCP Connection(28)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : SpringBootJPAHikariCP - Shutdown initiated...
+2023-10-25T00:32:25.071-03:00  INFO 38844 --- [RMI TCP Connection(28)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : SpringBootJPAHikariCP - Shutdown completed.
+2023-10-25T03:14:50.991-03:00  INFO 672 --- [main] b.c.r.a.SafesenderApiSmtpApplication     : Starting SafesenderApiSmtpApplication using Java 17.0.3.1 with PID 672 (C:\Git\rti\safesender-systems\safesender-api-smtp\target\classes started by rafae in C:\Git\rti\safesender-systems\safesender-api-smtp)
+2023-10-25T03:14:50.994-03:00  INFO 672 --- [main] b.c.r.a.SafesenderApiSmtpApplication     : No active profile set, falling back to 1 default profile: "default"
+2023-10-25T03:14:52.413-03:00  INFO 672 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-25T03:14:52.414-03:00  INFO 672 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-25T03:14:52.580-03:00  INFO 672 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 148 ms. Found 7 JPA repository interfaces.
+2023-10-25T03:14:53.548-03:00  INFO 672 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-25T03:14:53.548-03:00  INFO 672 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-10-25T03:14:53.578-03:00  INFO 672 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 28 ms. Found 0 JDBC repository interfaces.
+2023-10-25T03:14:54.290-03:00  INFO 672 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-10-25T03:14:54.359-03:00  INFO 672 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-10-25T03:14:55.155-03:00  INFO 672 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8686 (http)
+2023-10-25T03:14:55.180-03:00  INFO 672 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-25T03:14:55.180-03:00  INFO 672 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-25T03:14:55.432-03:00  INFO 672 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-25T03:14:55.432-03:00  INFO 672 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4324 ms
+2023-10-25T03:14:55.860-03:00  INFO 672 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-25T03:14:56.107-03:00  INFO 672 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-10-25T03:14:56.116-03:00  INFO 672 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-10-25T03:14:56.588-03:00  INFO 672 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-25T03:14:56.981-03:00  INFO 672 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-25T03:14:57.049-03:00  INFO 672 --- [main] com.zaxxer.hikari.HikariDataSource       : SpringBootJPAHikariCP - Starting...
+2023-10-25T03:14:57.566-03:00  INFO 672 --- [main] com.zaxxer.hikari.pool.HikariPool        : SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@350342e0
+2023-10-25T03:14:57.570-03:00  INFO 672 --- [main] com.zaxxer.hikari.HikariDataSource       : SpringBootJPAHikariCP - Start completed.
+2023-10-25T03:14:58.575-03:00  INFO 672 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-25T03:15:01.594-03:00  INFO 672 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-25T03:15:02.084-03:00  INFO 672 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-25T03:15:04.691-03:00  WARN 672 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-25T03:15:06.711-03:00  WARN 672 --- [main] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: org.springframework.amqp.rabbit.core.RabbitAdmin
+2023-10-25T03:15:06.797-03:00  INFO 672 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8686 (http) with context path ''
+2023-10-25T03:15:06.983-03:00  INFO 672 --- [scheduling-1] br.com.rti.service.CacheService          : renew cache getClientList()
+2023-10-25T03:15:06.984-03:00  INFO 672 --- [scheduling-1] br.com.rti.service.ClientService         : findAll
+2023-10-25T03:15:07.123-03:00  INFO 672 --- [main] o.a.c.support.LifecycleStrategySupport   : Autowired property: amqpAdmin on component: spring-rabbitmq as exactly one instance of type: org.springframework.amqp.core.AmqpAdmin (org.springframework.amqp.rabbit.core.RabbitAdmin) found in the registry
+2023-10-25T03:15:07.124-03:00  INFO 672 --- [main] o.a.c.support.LifecycleStrategySupport   : Autowired property: connectionFactory on component: spring-rabbitmq as exactly one instance of type: org.springframework.amqp.rabbit.connection.ConnectionFactory (org.springframework.amqp.rabbit.connection.CachingConnectionFactory) found in the registry
+2023-10-25T03:15:07.363-03:00  INFO 672 --- [main] o.a.c.impl.engine.AbstractCamelContext   : Apache Camel 4.0.1 (camel-1) is starting
+2023-10-25T03:15:07.371-03:00  INFO 672 --- [main] o.a.c.p.aggregate.AggregateProcessor     : Defaulting to MemoryAggregationRepository
+2023-10-25T03:15:07.372-03:00  INFO 672 --- [main] o.a.c.p.aggregate.AggregateProcessor     : Using CompletionTimeout to trigger after 1000 millis of inactivity.
+2023-10-25T03:15:07.432-03:00  INFO 672 --- [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:55601]
+2023-10-25T03:15:07.622-03:00  INFO 672 --- [main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#4f75c627:0/SimpleConnection@54ebacdc [delegate=amqp://pmtaqueue@127.0.0.1:55601/, localPort=52985]
+2023-10-25T03:15:07.677-03:00  INFO 672 --- [main] o.a.c.c.s.SpringRabbitMQEndpoint         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (smtp.EmailToSaveAndSend.Queue)durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2023-10-25T03:15:07.698-03:00  INFO 672 --- [main] .c.s.CamelDirectMessageListenerContainer : Container initialized for queues: [smtp.EmailToSaveAndSend.Queue]
+2023-10-25T03:15:07.704-03:00  INFO 672 --- [main] o.a.c.impl.engine.AbstractCamelContext   : Routes startup (started:3)
+2023-10-25T03:15:07.705-03:00  INFO 672 --- [main] o.a.c.impl.engine.AbstractCamelContext   :     Started EmailToSaveAndSendRabbitMqConsumerRoute (spring-rabbitmq://smtp.exchange)
+2023-10-25T03:15:07.706-03:00  INFO 672 --- [main] o.a.c.impl.engine.AbstractCamelContext   :     Started EmailToSaveAndSendRabbitMqProducerRoute (direct://emailToSaveAndSend)
+2023-10-25T03:15:07.706-03:00  INFO 672 --- [main] o.a.c.impl.engine.AbstractCamelContext   :     Started WebhookDiscardedToSaveRabbitMqProducerRoute (direct://webhookDiscarded)
+2023-10-25T03:15:07.706-03:00  INFO 672 --- [main] o.a.c.impl.engine.AbstractCamelContext   : Apache Camel 4.0.1 (camel-1) started in 343ms (build:0ms init:0ms start:343ms)
+2023-10-25T03:15:07.714-03:00  INFO 672 --- [main] b.c.r.a.SafesenderApiSmtpApplication     : Started SafesenderApiSmtpApplication in 17.571 seconds (process running for 19.215)
+2023-10-25T03:15:07.724-03:00  INFO 672 --- [not.a.Spring.bean-1] .c.s.CamelDirectMessageListenerContainer : SimpleConsumer [queue=smtp.EmailToSaveAndSend.Queue, index=0, consumerTag=amq.ctag-S1dKxYppKfNxnnWRv2ORWA identity=6646aa0a] started
+2023-10-25T03:15:27.393-03:00  INFO 672 --- [http-nio-8686-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-25T03:15:27.395-03:00  INFO 672 --- [http-nio-8686-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-25T03:15:27.400-03:00  INFO 672 --- [http-nio-8686-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2023-10-25T03:15:27.750-03:00  INFO 672 --- [http-nio-8686-exec-1] b.c.r.a.c.MailSenderController           : /one internalid:jj0122@202310250315277372ey6@u0001.wl001 | uniqueid:jj0122 | sender:u0001.wl001
+2023-10-25T03:15:30.429-03:00  INFO 672 --- [Camel (camel-1) thread #5 - Delay] b.c.r.a.p.MailSaveBatchProcessor         : INICIO - MailSaveProcessor.process()
+2023-10-25T03:15:30.430-03:00  INFO 672 --- [Camel (camel-1) thread #5 - Delay] b.c.r.a.p.MailSaveBatchProcessor         : INICIO - MailSaveProcessor 1 mensagens
+2023-10-25T03:15:30.430-03:00  INFO 672 --- [Camel (camel-1) thread #5 - Delay] br.com.rti.service.MailSaveService       : INICIO saveMail LOOP - 2023-10-25T03:15:30.430582400 
+2023-10-25T03:15:30.625-03:00  INFO 672 --- [Camel (camel-1) thread #5 - Delay] br.com.rti.service.MailSaveService       : FIM saveMail LOOP - 2023-10-25T03:15:30.625150200 - totalTime(milli): 194 - totalTime(seconds): 0
+2023-10-25T03:15:30.626-03:00  INFO 672 --- [Camel (camel-1) thread #5 - Delay] b.c.r.a.p.MailSaveBatchProcessor         : FIM - MailSaveProcessor 1 mensagens
+2023-10-25T03:15:30.626-03:00  INFO 672 --- [Camel (camel-1) thread #5 - Delay] r.a.p.MensagemSenderBatchSpringProcessor : INICIO - MensagemBatchSenderSpringProcessor.process()
+2023-10-25T03:15:30.626-03:00  INFO 672 --- [Camel (camel-1) thread #5 - Delay] r.a.p.MensagemSenderBatchSpringProcessor : INICIO - mailSenderSpringService 1 mensagens
+2023-10-25T03:15:30.626-03:00  INFO 672 --- [Camel (camel-1) thread #5 - Delay] b.c.r.a.s.MailSenderSpringService        : INICIO sendMail LOOP - 2023-10-25T03:15:30.626799200 
+2023-10-25T03:16:07.385-03:00  INFO 672 --- [scheduling-1] br.com.rti.service.CacheService          : renew cache getClientList()
+2023-10-25T03:16:07.386-03:00  INFO 672 --- [scheduling-1] br.com.rti.service.ClientService         : findAll
+2023-10-25T03:17:07.403-03:00  INFO 672 --- [scheduling-1] br.com.rti.service.CacheService          : renew cache getClientList()
+2023-10-25T03:17:07.403-03:00  INFO 672 --- [scheduling-1] br.com.rti.service.ClientService         : findAll
+2023-10-25T03:17:30.632-03:00 ERROR 672 --- [Camel (camel-1) thread #5 - Delay] b.c.r.a.s.MailSenderSpringService        : Pool de threads não terminou
+2023-10-25T03:17:30.633-03:00  INFO 672 --- [Camel (camel-1) thread #5 - Delay] b.c.r.a.s.MailSenderSpringService        : FIM sendMail LOOP - 2023-10-25T03:17:30.632643100 - totalTime(milli): 120005 - totalTime(seconds): 120
+2023-10-25T03:17:30.633-03:00  INFO 672 --- [Camel (camel-1) thread #5 - Delay] b.c.r.a.s.MailSenderSpringService        : INICIO sendToDiscard: 0
+2023-10-25T03:17:30.637-03:00  INFO 672 --- [Camel (camel-1) thread #5 - Delay] b.c.r.a.s.MailSenderSpringService        : FIM sendToDiscard: 0
+2023-10-25T03:17:30.638-03:00  INFO 672 --- [Camel (camel-1) thread #5 - Delay] r.a.p.MensagemSenderBatchSpringProcessor : FIM - mailSenderSpringService 1 mensagens
+2023-10-25T03:17:52.691-03:00  INFO 672 --- [RMI TCP Connection(11)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-10-25T03:17:52.736-03:00  INFO 672 --- [RMI TCP Connection(11)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-10-25T03:17:52.736-03:00  INFO 672 --- [RMI TCP Connection(11)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-10-25T03:17:52.750-03:00  INFO 672 --- [RMI TCP Connection(11)-127.0.0.1] o.a.c.impl.engine.AbstractCamelContext   : Apache Camel 4.0.1 (camel-1) is shutting down (timeout:45s)
+2023-10-25T03:17:52.767-03:00  INFO 672 --- [Camel (camel-1) thread #6 - ShutdownTask] .c.s.CamelDirectMessageListenerContainer : Successfully waited for consumers to finish.
+2023-10-25T03:17:52.778-03:00  INFO 672 --- [RMI TCP Connection(11)-127.0.0.1] o.a.c.impl.engine.AbstractCamelContext   : Routes stopped (stopped:3)
+2023-10-25T03:17:52.779-03:00  INFO 672 --- [RMI TCP Connection(11)-127.0.0.1] o.a.c.impl.engine.AbstractCamelContext   :     Stopped WebhookDiscardedToSaveRabbitMqProducerRoute (direct://webhookDiscarded)
+2023-10-25T03:17:52.779-03:00  INFO 672 --- [RMI TCP Connection(11)-127.0.0.1] o.a.c.impl.engine.AbstractCamelContext   :     Stopped EmailToSaveAndSendRabbitMqProducerRoute (direct://emailToSaveAndSend)
+2023-10-25T03:17:52.779-03:00  INFO 672 --- [RMI TCP Connection(11)-127.0.0.1] o.a.c.impl.engine.AbstractCamelContext   :     Stopped EmailToSaveAndSendRabbitMqConsumerRoute (spring-rabbitmq://smtp.exchange)
+2023-10-25T03:17:52.784-03:00  INFO 672 --- [RMI TCP Connection(11)-127.0.0.1] o.a.c.impl.engine.AbstractCamelContext   : Apache Camel 4.0.1 (camel-1) shutdown in 33ms (uptime:2m45s)
+2023-10-25T03:17:52.810-03:00  INFO 672 --- [RMI TCP Connection(11)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-25T03:17:52.814-03:00  INFO 672 --- [RMI TCP Connection(11)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : SpringBootJPAHikariCP - Shutdown initiated...
+2023-10-25T03:17:52.825-03:00  INFO 672 --- [RMI TCP Connection(11)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : SpringBootJPAHikariCP - Shutdown completed.
+2023-10-25T03:25:51.107-03:00  INFO 26580 --- [main] b.c.r.a.SafesenderApiSmtpApplication     : Starting SafesenderApiSmtpApplication using Java 17.0.3.1 with PID 26580 (C:\Git\rti\safesender-systems\safesender-api-smtp\target\classes started by rafae in C:\Git\rti\safesender-systems\safesender-api-smtp)
+2023-10-25T03:25:51.112-03:00  INFO 26580 --- [main] b.c.r.a.SafesenderApiSmtpApplication     : No active profile set, falling back to 1 default profile: "default"
+2023-10-25T03:25:52.526-03:00  INFO 26580 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-25T03:25:52.526-03:00  INFO 26580 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-25T03:25:52.676-03:00  INFO 26580 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 134 ms. Found 7 JPA repository interfaces.
+2023-10-25T03:25:53.499-03:00  INFO 26580 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-25T03:25:53.500-03:00  INFO 26580 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-10-25T03:25:53.521-03:00  INFO 26580 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20 ms. Found 0 JDBC repository interfaces.
+2023-10-25T03:25:54.233-03:00  INFO 26580 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-10-25T03:25:54.314-03:00  INFO 26580 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-10-25T03:25:55.129-03:00  INFO 26580 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8686 (http)
+2023-10-25T03:25:55.154-03:00  INFO 26580 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-25T03:25:55.155-03:00  INFO 26580 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-25T03:25:55.405-03:00  INFO 26580 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-25T03:25:55.407-03:00  INFO 26580 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4166 ms
+2023-10-25T03:25:55.815-03:00  INFO 26580 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-25T03:25:55.991-03:00  INFO 26580 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-10-25T03:25:55.998-03:00  INFO 26580 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-10-25T03:25:56.430-03:00  INFO 26580 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-25T03:25:56.732-03:00  INFO 26580 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-25T03:25:56.776-03:00  INFO 26580 --- [main] com.zaxxer.hikari.HikariDataSource       : SpringBootJPAHikariCP - Starting...
+2023-10-25T03:25:57.192-03:00  INFO 26580 --- [main] com.zaxxer.hikari.pool.HikariPool        : SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@350342e0
+2023-10-25T03:25:57.196-03:00  INFO 26580 --- [main] com.zaxxer.hikari.HikariDataSource       : SpringBootJPAHikariCP - Start completed.
+2023-10-25T03:25:58.268-03:00  INFO 26580 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-25T03:26:01.006-03:00  INFO 26580 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-25T03:26:01.433-03:00  INFO 26580 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-25T03:26:04.036-03:00  WARN 26580 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-25T03:26:05.559-03:00  WARN 26580 --- [main] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: org.springframework.amqp.rabbit.core.RabbitAdmin
+2023-10-25T03:26:05.631-03:00  INFO 26580 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8686 (http) with context path ''
+2023-10-25T03:26:05.836-03:00  INFO 26580 --- [scheduling-1] br.com.rti.service.CacheService          : renew cache getClientList()
+2023-10-25T03:26:05.839-03:00  INFO 26580 --- [scheduling-1] br.com.rti.service.ClientService         : findAll
+2023-10-25T03:26:06.102-03:00  INFO 26580 --- [main] o.a.c.support.LifecycleStrategySupport   : Autowired property: amqpAdmin on component: spring-rabbitmq as exactly one instance of type: org.springframework.amqp.core.AmqpAdmin (org.springframework.amqp.rabbit.core.RabbitAdmin) found in the registry
+2023-10-25T03:26:06.104-03:00  INFO 26580 --- [main] o.a.c.support.LifecycleStrategySupport   : Autowired property: connectionFactory on component: spring-rabbitmq as exactly one instance of type: org.springframework.amqp.rabbit.connection.ConnectionFactory (org.springframework.amqp.rabbit.connection.CachingConnectionFactory) found in the registry
+2023-10-25T03:26:06.462-03:00  INFO 26580 --- [main] o.a.c.impl.engine.AbstractCamelContext   : Apache Camel 4.0.1 (camel-1) is starting
+2023-10-25T03:26:06.472-03:00  INFO 26580 --- [main] o.a.c.p.aggregate.AggregateProcessor     : Defaulting to MemoryAggregationRepository
+2023-10-25T03:26:06.472-03:00  INFO 26580 --- [main] o.a.c.p.aggregate.AggregateProcessor     : Using CompletionTimeout to trigger after 1000 millis of inactivity.
+2023-10-25T03:26:06.533-03:00  INFO 26580 --- [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:55601]
+2023-10-25T03:26:06.726-03:00  INFO 26580 --- [main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#4f75c627:0/SimpleConnection@54ebacdc [delegate=amqp://pmtaqueue@127.0.0.1:55601/, localPort=53167]
+2023-10-25T03:26:06.790-03:00  INFO 26580 --- [main] o.a.c.c.s.SpringRabbitMQEndpoint         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (smtp.EmailToSaveAndSend.Queue)durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2023-10-25T03:26:06.808-03:00  INFO 26580 --- [main] .c.s.CamelDirectMessageListenerContainer : Container initialized for queues: [smtp.EmailToSaveAndSend.Queue]
+2023-10-25T03:26:06.816-03:00  INFO 26580 --- [main] o.a.c.impl.engine.AbstractCamelContext   : Routes startup (started:3)
+2023-10-25T03:26:06.817-03:00  INFO 26580 --- [main] o.a.c.impl.engine.AbstractCamelContext   :     Started EmailToSaveAndSendRabbitMqConsumerRoute (spring-rabbitmq://smtp.exchange)
+2023-10-25T03:26:06.818-03:00  INFO 26580 --- [main] o.a.c.impl.engine.AbstractCamelContext   :     Started EmailToSaveAndSendRabbitMqProducerRoute (direct://emailToSaveAndSend)
+2023-10-25T03:26:06.818-03:00  INFO 26580 --- [main] o.a.c.impl.engine.AbstractCamelContext   :     Started WebhookDiscardedToSaveRabbitMqProducerRoute (direct://webhookDiscarded)
+2023-10-25T03:26:06.818-03:00  INFO 26580 --- [main] o.a.c.impl.engine.AbstractCamelContext   : Apache Camel 4.0.1 (camel-1) started in 354ms (build:0ms init:0ms start:354ms)
+2023-10-25T03:26:06.828-03:00  INFO 26580 --- [main] b.c.r.a.SafesenderApiSmtpApplication     : Started SafesenderApiSmtpApplication in 16.588 seconds (process running for 18.207)
+2023-10-25T03:26:06.837-03:00  INFO 26580 --- [not.a.Spring.bean-1] .c.s.CamelDirectMessageListenerContainer : SimpleConsumer [queue=smtp.EmailToSaveAndSend.Queue, index=0, consumerTag=amq.ctag-2j8PoP5lUkfRN7ieNY-yrg identity=273818b7] started
+2023-10-25T03:26:49.592-03:00  INFO 26580 --- [http-nio-8686-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-25T03:26:49.595-03:00  INFO 26580 --- [http-nio-8686-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-25T03:26:49.601-03:00  INFO 26580 --- [http-nio-8686-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2023-10-25T03:26:49.918-03:00  INFO 26580 --- [http-nio-8686-exec-1] b.c.r.a.c.MailSenderController           : /one internalid:jj0122@20231025032649908jvh1@u0001.wl001 | uniqueid:jj0122 | sender:u0001.wl001
+2023-10-25T03:26:52.559-03:00  INFO 26580 --- [Camel (camel-1) thread #5 - Delay] b.c.r.a.p.MailSaveBatchProcessor         : INICIO - MailSaveProcessor.process()
+2023-10-25T03:26:52.560-03:00  INFO 26580 --- [Camel (camel-1) thread #5 - Delay] b.c.r.a.p.MailSaveBatchProcessor         : INICIO - MailSaveProcessor 1 mensagens
+2023-10-25T03:26:52.560-03:00  INFO 26580 --- [Camel (camel-1) thread #5 - Delay] br.com.rti.service.MailSaveService       : INICIO saveMail LOOP - 2023-10-25T03:26:52.560580 
+2023-10-25T03:26:52.730-03:00  INFO 26580 --- [Camel (camel-1) thread #5 - Delay] br.com.rti.service.MailSaveService       : FIM saveMail LOOP - 2023-10-25T03:26:52.730007 - totalTime(milli): 169 - totalTime(seconds): 0
+2023-10-25T03:26:52.730-03:00  INFO 26580 --- [Camel (camel-1) thread #5 - Delay] b.c.r.a.p.MailSaveBatchProcessor         : FIM - MailSaveProcessor 1 mensagens
+2023-10-25T03:26:52.730-03:00  INFO 26580 --- [Camel (camel-1) thread #5 - Delay] r.a.p.MensagemSenderBatchSpringProcessor : INICIO - MensagemBatchSenderSpringProcessor.process()
+2023-10-25T03:26:52.730-03:00  INFO 26580 --- [Camel (camel-1) thread #5 - Delay] r.a.p.MensagemSenderBatchSpringProcessor : INICIO - mailSenderSpringService 1 mensagens
+2023-10-25T03:26:52.730-03:00  INFO 26580 --- [Camel (camel-1) thread #5 - Delay] b.c.r.a.s.MailSenderSpringService        : INICIO sendMail LOOP - 2023-10-25T03:26:52.730698700 
+2023-10-25T03:27:06.459-03:00  INFO 26580 --- [scheduling-1] br.com.rti.service.CacheService          : renew cache getClientList()
+2023-10-25T03:27:06.459-03:00  INFO 26580 --- [scheduling-1] br.com.rti.service.ClientService         : findAll
+2023-10-25T03:28:06.476-03:00  INFO 26580 --- [scheduling-1] br.com.rti.service.CacheService          : renew cache getClientList()
+2023-10-25T03:28:06.476-03:00  INFO 26580 --- [scheduling-1] br.com.rti.service.ClientService         : findAll
+2023-10-25T03:28:52.737-03:00 ERROR 26580 --- [Camel (camel-1) thread #5 - Delay] b.c.r.a.s.MailSenderSpringService        : Pool de threads não terminou
+2023-10-25T03:28:52.738-03:00  INFO 26580 --- [Camel (camel-1) thread #5 - Delay] b.c.r.a.s.MailSenderSpringService        : FIM sendMail LOOP - 2023-10-25T03:28:52.738152100 - totalTime(milli): 120007 - totalTime(seconds): 120
+2023-10-25T03:28:52.738-03:00  INFO 26580 --- [Camel (camel-1) thread #5 - Delay] b.c.r.a.s.MailSenderSpringService        : INICIO sendToDiscard: 0
+2023-10-25T03:28:52.743-03:00  INFO 26580 --- [Camel (camel-1) thread #5 - Delay] b.c.r.a.s.MailSenderSpringService        : FIM sendToDiscard: 0
+2023-10-25T03:28:52.743-03:00  INFO 26580 --- [Camel (camel-1) thread #5 - Delay] r.a.p.MensagemSenderBatchSpringProcessor : FIM - mailSenderSpringService 1 mensagens
+2023-10-25T03:29:06.497-03:00  INFO 26580 --- [scheduling-1] br.com.rti.service.CacheService          : renew cache getClientList()
+2023-10-25T03:29:06.497-03:00  INFO 26580 --- [scheduling-1] br.com.rti.service.ClientService         : findAll
+2023-10-25T03:29:09.974-03:00  INFO 26580 --- [RMI TCP Connection(13)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-10-25T03:29:10.044-03:00  INFO 26580 --- [RMI TCP Connection(13)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-10-25T03:29:10.046-03:00  INFO 26580 --- [RMI TCP Connection(13)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-10-25T03:29:10.077-03:00  INFO 26580 --- [RMI TCP Connection(13)-127.0.0.1] o.a.c.impl.engine.AbstractCamelContext   : Apache Camel 4.0.1 (camel-1) is shutting down (timeout:45s)
+2023-10-25T03:29:10.100-03:00  INFO 26580 --- [Camel (camel-1) thread #6 - ShutdownTask] .c.s.CamelDirectMessageListenerContainer : Successfully waited for consumers to finish.
+2023-10-25T03:29:10.111-03:00  INFO 26580 --- [RMI TCP Connection(13)-127.0.0.1] o.a.c.impl.engine.AbstractCamelContext   : Routes stopped (stopped:3)
+2023-10-25T03:29:10.111-03:00  INFO 26580 --- [RMI TCP Connection(13)-127.0.0.1] o.a.c.impl.engine.AbstractCamelContext   :     Stopped WebhookDiscardedToSaveRabbitMqProducerRoute (direct://webhookDiscarded)
+2023-10-25T03:29:10.111-03:00  INFO 26580 --- [RMI TCP Connection(13)-127.0.0.1] o.a.c.impl.engine.AbstractCamelContext   :     Stopped EmailToSaveAndSendRabbitMqProducerRoute (direct://emailToSaveAndSend)
+2023-10-25T03:29:10.111-03:00  INFO 26580 --- [RMI TCP Connection(13)-127.0.0.1] o.a.c.impl.engine.AbstractCamelContext   :     Stopped EmailToSaveAndSendRabbitMqConsumerRoute (spring-rabbitmq://smtp.exchange)
+2023-10-25T03:29:10.121-03:00  INFO 26580 --- [RMI TCP Connection(13)-127.0.0.1] o.a.c.impl.engine.AbstractCamelContext   : Apache Camel 4.0.1 (camel-1) shutdown in 44ms (uptime:3m3s)
+2023-10-25T03:29:10.149-03:00  INFO 26580 --- [RMI TCP Connection(13)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-25T03:29:10.155-03:00  INFO 26580 --- [RMI TCP Connection(13)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : SpringBootJPAHikariCP - Shutdown initiated...
+2023-10-25T03:29:10.171-03:00  INFO 26580 --- [RMI TCP Connection(13)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : SpringBootJPAHikariCP - Shutdown completed.
+2023-10-25T03:34:06.667-03:00  INFO 47464 --- [main] b.c.r.a.SafesenderApiSmtpApplication     : Starting SafesenderApiSmtpApplication using Java 17.0.3.1 with PID 47464 (C:\Git\rti\safesender-systems\safesender-api-smtp\target\classes started by rafae in C:\Git\rti\safesender-systems\safesender-api-smtp)
+2023-10-25T03:34:06.670-03:00  INFO 47464 --- [main] b.c.r.a.SafesenderApiSmtpApplication     : No active profile set, falling back to 1 default profile: "default"
+2023-10-25T03:34:08.027-03:00  INFO 47464 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-25T03:34:08.027-03:00  INFO 47464 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-25T03:34:08.202-03:00  INFO 47464 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 152 ms. Found 7 JPA repository interfaces.
+2023-10-25T03:34:09.084-03:00  INFO 47464 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-25T03:34:09.084-03:00  INFO 47464 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-10-25T03:34:09.109-03:00  INFO 47464 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 23 ms. Found 0 JDBC repository interfaces.
+2023-10-25T03:34:09.715-03:00  INFO 47464 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-10-25T03:34:09.786-03:00  INFO 47464 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-10-25T03:34:10.476-03:00  INFO 47464 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8686 (http)
+2023-10-25T03:34:10.500-03:00  INFO 47464 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-25T03:34:10.501-03:00  INFO 47464 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-25T03:34:10.730-03:00  INFO 47464 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-25T03:34:10.731-03:00  INFO 47464 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3958 ms
+2023-10-25T03:34:11.157-03:00  INFO 47464 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-25T03:34:11.334-03:00  INFO 47464 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-10-25T03:34:11.342-03:00  INFO 47464 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-10-25T03:34:11.867-03:00  INFO 47464 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-25T03:34:12.263-03:00  INFO 47464 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-25T03:34:12.316-03:00  INFO 47464 --- [main] com.zaxxer.hikari.HikariDataSource       : SpringBootJPAHikariCP - Starting...
+2023-10-25T03:34:12.787-03:00  INFO 47464 --- [main] com.zaxxer.hikari.pool.HikariPool        : SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@5f166f2e
+2023-10-25T03:34:12.792-03:00  INFO 47464 --- [main] com.zaxxer.hikari.HikariDataSource       : SpringBootJPAHikariCP - Start completed.
+2023-10-25T03:34:13.758-03:00  INFO 47464 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-25T03:34:16.089-03:00  INFO 47464 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-25T03:34:16.494-03:00  INFO 47464 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-25T03:34:19.099-03:00  WARN 47464 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-25T03:34:20.716-03:00  WARN 47464 --- [main] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: org.springframework.amqp.rabbit.core.RabbitAdmin
+2023-10-25T03:34:20.794-03:00  INFO 47464 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8686 (http) with context path ''
+2023-10-25T03:34:21.024-03:00  INFO 47464 --- [scheduling-1] br.com.rti.service.CacheService          : renew cache getClientList()
+2023-10-25T03:34:21.026-03:00  INFO 47464 --- [scheduling-1] br.com.rti.service.ClientService         : findAll
+2023-10-25T03:34:21.348-03:00  INFO 47464 --- [main] o.a.c.support.LifecycleStrategySupport   : Autowired property: amqpAdmin on component: spring-rabbitmq as exactly one instance of type: org.springframework.amqp.core.AmqpAdmin (org.springframework.amqp.rabbit.core.RabbitAdmin) found in the registry
+2023-10-25T03:34:21.349-03:00  INFO 47464 --- [main] o.a.c.support.LifecycleStrategySupport   : Autowired property: connectionFactory on component: spring-rabbitmq as exactly one instance of type: org.springframework.amqp.rabbit.connection.ConnectionFactory (org.springframework.amqp.rabbit.connection.CachingConnectionFactory) found in the registry
+2023-10-25T03:34:21.469-03:00  INFO 47464 --- [main] o.a.c.impl.engine.AbstractCamelContext   : Apache Camel 4.0.1 (camel-1) is starting
+2023-10-25T03:34:21.481-03:00  INFO 47464 --- [main] o.a.c.p.aggregate.AggregateProcessor     : Defaulting to MemoryAggregationRepository
+2023-10-25T03:34:21.482-03:00  INFO 47464 --- [main] o.a.c.p.aggregate.AggregateProcessor     : Using CompletionTimeout to trigger after 1000 millis of inactivity.
+2023-10-25T03:34:21.534-03:00  INFO 47464 --- [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:55601]
+2023-10-25T03:34:21.698-03:00  INFO 47464 --- [main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#43f4621b:0/SimpleConnection@6a4940e1 [delegate=amqp://pmtaqueue@127.0.0.1:55601/, localPort=62559]
+2023-10-25T03:34:21.743-03:00  INFO 47464 --- [main] o.a.c.c.s.SpringRabbitMQEndpoint         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (smtp.EmailToSaveAndSend.Queue)durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2023-10-25T03:34:21.758-03:00  INFO 47464 --- [main] .c.s.CamelDirectMessageListenerContainer : Container initialized for queues: [smtp.EmailToSaveAndSend.Queue]
+2023-10-25T03:34:21.763-03:00  INFO 47464 --- [main] o.a.c.impl.engine.AbstractCamelContext   : Routes startup (started:3)
+2023-10-25T03:34:21.763-03:00  INFO 47464 --- [main] o.a.c.impl.engine.AbstractCamelContext   :     Started WebhookDiscardedToSaveRabbitMqProducerRoute (direct://webhookDiscarded)
+2023-10-25T03:34:21.763-03:00  INFO 47464 --- [main] o.a.c.impl.engine.AbstractCamelContext   :     Started EmailToSaveAndSendRabbitMqConsumerRoute (spring-rabbitmq://smtp.exchange)
+2023-10-25T03:34:21.763-03:00  INFO 47464 --- [main] o.a.c.impl.engine.AbstractCamelContext   :     Started EmailToSaveAndSendRabbitMqProducerRoute (direct://emailToSaveAndSend)
+2023-10-25T03:34:21.763-03:00  INFO 47464 --- [main] o.a.c.impl.engine.AbstractCamelContext   : Apache Camel 4.0.1 (camel-1) started in 294ms (build:0ms init:0ms start:294ms)
+2023-10-25T03:34:21.772-03:00  INFO 47464 --- [main] b.c.r.a.SafesenderApiSmtpApplication     : Started SafesenderApiSmtpApplication in 15.924 seconds (process running for 17.702)
+2023-10-25T03:34:21.785-03:00  INFO 47464 --- [not.a.Spring.bean-1] .c.s.CamelDirectMessageListenerContainer : SimpleConsumer [queue=smtp.EmailToSaveAndSend.Queue, index=0, consumerTag=amq.ctag-TFRj9pre3HZviJrK5W7zMQ identity=10a5ff4c] started
+2023-10-25T03:34:33.159-03:00  INFO 47464 --- [http-nio-8686-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-25T03:34:33.160-03:00  INFO 47464 --- [http-nio-8686-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-25T03:34:33.162-03:00  INFO 47464 --- [http-nio-8686-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-10-25T03:34:33.393-03:00  INFO 47464 --- [http-nio-8686-exec-1] b.c.r.a.c.MailSenderController           : /one internalid:jj0122@20231025033433386eqg9@u0001.wl001 | uniqueid:jj0122 | sender:u0001.wl001
+2023-10-25T03:34:36.520-03:00  INFO 47464 --- [Camel (camel-1) thread #5 - Delay] b.c.r.a.p.MailSaveBatchProcessor         : INICIO - MailSaveProcessor.process()
+2023-10-25T03:34:36.521-03:00  INFO 47464 --- [Camel (camel-1) thread #5 - Delay] b.c.r.a.p.MailSaveBatchProcessor         : INICIO - MailSaveProcessor 1 mensagens
+2023-10-25T03:34:36.521-03:00  INFO 47464 --- [Camel (camel-1) thread #5 - Delay] br.com.rti.service.MailSaveService       : INICIO saveMail LOOP - 2023-10-25T03:34:36.521306600 
+2023-10-25T03:34:36.712-03:00  INFO 47464 --- [Camel (camel-1) thread #5 - Delay] br.com.rti.service.MailSaveService       : FIM saveMail LOOP - 2023-10-25T03:34:36.712864400 - totalTime(milli): 191 - totalTime(seconds): 0
+2023-10-25T03:34:36.713-03:00  INFO 47464 --- [Camel (camel-1) thread #5 - Delay] b.c.r.a.p.MailSaveBatchProcessor         : FIM - MailSaveProcessor 1 mensagens
+2023-10-25T03:34:36.713-03:00  INFO 47464 --- [Camel (camel-1) thread #5 - Delay] r.a.p.MensagemSenderBatchSpringProcessor : INICIO - MensagemBatchSenderSpringProcessor.process()
+2023-10-25T03:34:36.713-03:00  INFO 47464 --- [Camel (camel-1) thread #5 - Delay] r.a.p.MensagemSenderBatchSpringProcessor : INICIO - mailSenderSpringService 1 mensagens
+2023-10-25T03:34:36.713-03:00  INFO 47464 --- [Camel (camel-1) thread #5 - Delay] b.c.r.a.s.MailSenderSpringService        : INICIO sendMail LOOP - 2023-10-25T03:34:36.713994100 
+2023-10-25T03:35:21.475-03:00  INFO 47464 --- [scheduling-1] br.com.rti.service.CacheService          : renew cache getClientList()
+2023-10-25T03:35:21.475-03:00  INFO 47464 --- [scheduling-1] br.com.rti.service.ClientService         : findAll
+2023-10-25T03:36:21.488-03:00  INFO 47464 --- [scheduling-1] br.com.rti.service.CacheService          : renew cache getClientList()
+2023-10-25T03:36:21.488-03:00  INFO 47464 --- [scheduling-1] br.com.rti.service.ClientService         : findAll
+2023-10-25T03:36:36.720-03:00 ERROR 47464 --- [Camel (camel-1) thread #5 - Delay] b.c.r.a.s.MailSenderSpringService        : Pool de threads não terminou
+2023-10-25T03:36:36.720-03:00  INFO 47464 --- [Camel (camel-1) thread #5 - Delay] b.c.r.a.s.MailSenderSpringService        : FIM sendMail LOOP - 2023-10-25T03:36:36.720988 - totalTime(milli): 120006 - totalTime(seconds): 120
+2023-10-25T03:36:36.721-03:00  INFO 47464 --- [Camel (camel-1) thread #5 - Delay] b.c.r.a.s.MailSenderSpringService        : INICIO sendToDiscard: 0
+2023-10-25T03:36:36.726-03:00  INFO 47464 --- [Camel (camel-1) thread #5 - Delay] b.c.r.a.s.MailSenderSpringService        : FIM sendToDiscard: 0
+2023-10-25T03:36:36.726-03:00  INFO 47464 --- [Camel (camel-1) thread #5 - Delay] r.a.p.MensagemSenderBatchSpringProcessor : FIM - mailSenderSpringService 1 mensagens
+2023-10-25T03:37:21.500-03:00  INFO 47464 --- [scheduling-1] br.com.rti.service.CacheService          : renew cache getClientList()
+2023-10-25T03:37:21.500-03:00  INFO 47464 --- [scheduling-1] br.com.rti.service.ClientService         : findAll
+2023-10-25T03:38:21.518-03:00  INFO 47464 --- [scheduling-1] br.com.rti.service.CacheService          : renew cache getClientList()
+2023-10-25T03:38:21.518-03:00  INFO 47464 --- [scheduling-1] br.com.rti.service.ClientService         : findAll
+2023-10-25T03:39:21.531-03:00  INFO 47464 --- [scheduling-1] br.com.rti.service.CacheService          : renew cache getClientList()
+2023-10-25T03:39:21.531-03:00  INFO 47464 --- [scheduling-1] br.com.rti.service.ClientService         : findAll
+2023-10-25T03:40:21.547-03:00  INFO 47464 --- [scheduling-1] br.com.rti.service.CacheService          : renew cache getClientList()
+2023-10-25T03:40:21.547-03:00  INFO 47464 --- [scheduling-1] br.com.rti.service.ClientService         : findAll
+2023-10-25T03:41:21.562-03:00  INFO 47464 --- [scheduling-1] br.com.rti.service.CacheService          : renew cache getClientList()
+2023-10-25T03:41:21.562-03:00  INFO 47464 --- [scheduling-1] br.com.rti.service.ClientService         : findAll
+2023-10-25T03:42:21.576-03:00  INFO 47464 --- [scheduling-1] br.com.rti.service.CacheService          : renew cache getClientList()
+2023-10-25T03:42:21.576-03:00  INFO 47464 --- [scheduling-1] br.com.rti.service.ClientService         : findAll
+2023-10-25T03:43:21.595-03:00  INFO 47464 --- [scheduling-1] br.com.rti.service.CacheService          : renew cache getClientList()
+2023-10-25T03:43:21.595-03:00  INFO 47464 --- [scheduling-1] br.com.rti.service.ClientService         : findAll
+2023-10-25T03:44:07.076-03:00  INFO 47464 --- [RMI TCP Connection(18)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-10-25T03:44:07.121-03:00  INFO 47464 --- [RMI TCP Connection(18)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-10-25T03:44:07.123-03:00  INFO 47464 --- [RMI TCP Connection(18)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-10-25T03:44:07.133-03:00  INFO 47464 --- [RMI TCP Connection(18)-127.0.0.1] o.a.c.impl.engine.AbstractCamelContext   : Apache Camel 4.0.1 (camel-1) is shutting down (timeout:45s)
+2023-10-25T03:44:07.143-03:00  INFO 47464 --- [Camel (camel-1) thread #6 - ShutdownTask] .c.s.CamelDirectMessageListenerContainer : Successfully waited for consumers to finish.
+2023-10-25T03:44:07.152-03:00  INFO 47464 --- [RMI TCP Connection(18)-127.0.0.1] o.a.c.impl.engine.AbstractCamelContext   : Routes stopped (stopped:3)
+2023-10-25T03:44:07.152-03:00  INFO 47464 --- [RMI TCP Connection(18)-127.0.0.1] o.a.c.impl.engine.AbstractCamelContext   :     Stopped EmailToSaveAndSendRabbitMqProducerRoute (direct://emailToSaveAndSend)
+2023-10-25T03:44:07.152-03:00  INFO 47464 --- [RMI TCP Connection(18)-127.0.0.1] o.a.c.impl.engine.AbstractCamelContext   :     Stopped EmailToSaveAndSendRabbitMqConsumerRoute (spring-rabbitmq://smtp.exchange)
+2023-10-25T03:44:07.152-03:00  INFO 47464 --- [RMI TCP Connection(18)-127.0.0.1] o.a.c.impl.engine.AbstractCamelContext   :     Stopped WebhookDiscardedToSaveRabbitMqProducerRoute (direct://webhookDiscarded)
+2023-10-25T03:44:07.156-03:00  INFO 47464 --- [RMI TCP Connection(18)-127.0.0.1] o.a.c.impl.engine.AbstractCamelContext   : Apache Camel 4.0.1 (camel-1) shutdown in 23ms (uptime:9m45s)
+2023-10-25T03:44:07.173-03:00  INFO 47464 --- [RMI TCP Connection(18)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-25T03:44:07.176-03:00  INFO 47464 --- [RMI TCP Connection(18)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : SpringBootJPAHikariCP - Shutdown initiated...
+2023-10-25T03:44:07.185-03:00  INFO 47464 --- [RMI TCP Connection(18)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : SpringBootJPAHikariCP - Shutdown completed.
+2023-10-25T03:44:42.507-03:00  INFO 17828 --- [main] b.c.r.a.SafesenderApiSmtpApplication     : Starting SafesenderApiSmtpApplication using Java 17.0.3.1 with PID 17828 (C:\Git\rti\safesender-systems\safesender-api-smtp\target\classes started by rafae in C:\Git\rti\safesender-systems\safesender-api-smtp)
+2023-10-25T03:44:42.518-03:00  INFO 17828 --- [main] b.c.r.a.SafesenderApiSmtpApplication     : No active profile set, falling back to 1 default profile: "default"
+2023-10-25T03:44:43.883-03:00  INFO 17828 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-25T03:44:43.883-03:00  INFO 17828 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-25T03:44:44.005-03:00  INFO 17828 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 108 ms. Found 7 JPA repository interfaces.
+2023-10-25T03:44:44.777-03:00  INFO 17828 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-25T03:44:44.777-03:00  INFO 17828 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-10-25T03:44:44.798-03:00  INFO 17828 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20 ms. Found 0 JDBC repository interfaces.
+2023-10-25T03:44:45.337-03:00  INFO 17828 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-10-25T03:44:45.403-03:00  INFO 17828 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-10-25T03:44:46.108-03:00  INFO 17828 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8686 (http)
+2023-10-25T03:44:46.127-03:00  INFO 17828 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-25T03:44:46.127-03:00  INFO 17828 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-25T03:44:46.343-03:00  INFO 17828 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-25T03:44:46.344-03:00  INFO 17828 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3686 ms
+2023-10-25T03:44:46.782-03:00  INFO 17828 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-25T03:44:46.947-03:00  INFO 17828 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-10-25T03:44:46.953-03:00  INFO 17828 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-10-25T03:44:47.448-03:00  INFO 17828 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-25T03:44:47.848-03:00  INFO 17828 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-25T03:44:47.900-03:00  INFO 17828 --- [main] com.zaxxer.hikari.HikariDataSource       : SpringBootJPAHikariCP - Starting...
+2023-10-25T03:44:48.417-03:00  INFO 17828 --- [main] com.zaxxer.hikari.pool.HikariPool        : SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@e994ca
+2023-10-25T03:44:48.422-03:00  INFO 17828 --- [main] com.zaxxer.hikari.HikariDataSource       : SpringBootJPAHikariCP - Start completed.
+2023-10-25T03:44:49.564-03:00  INFO 17828 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-25T03:44:52.235-03:00  INFO 17828 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-25T03:44:52.616-03:00  INFO 17828 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-25T03:44:54.760-03:00  WARN 17828 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-25T03:44:56.601-03:00  WARN 17828 --- [main] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: org.springframework.amqp.rabbit.core.RabbitAdmin
+2023-10-25T03:44:56.688-03:00  INFO 17828 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8686 (http) with context path ''
+2023-10-25T03:44:56.960-03:00  INFO 17828 --- [scheduling-1] br.com.rti.service.CacheService          : renew cache getClientList()
+2023-10-25T03:44:56.962-03:00  INFO 17828 --- [scheduling-1] br.com.rti.service.ClientService         : findAll
+2023-10-25T03:44:57.387-03:00  INFO 17828 --- [main] o.a.c.support.LifecycleStrategySupport   : Autowired property: amqpAdmin on component: spring-rabbitmq as exactly one instance of type: org.springframework.amqp.core.AmqpAdmin (org.springframework.amqp.rabbit.core.RabbitAdmin) found in the registry
+2023-10-25T03:44:57.390-03:00  INFO 17828 --- [main] o.a.c.support.LifecycleStrategySupport   : Autowired property: connectionFactory on component: spring-rabbitmq as exactly one instance of type: org.springframework.amqp.rabbit.connection.ConnectionFactory (org.springframework.amqp.rabbit.connection.CachingConnectionFactory) found in the registry
+2023-10-25T03:44:57.547-03:00  INFO 17828 --- [main] o.a.c.impl.engine.AbstractCamelContext   : Apache Camel 4.0.1 (camel-1) is starting
+2023-10-25T03:44:57.564-03:00  INFO 17828 --- [main] o.a.c.p.aggregate.AggregateProcessor     : Defaulting to MemoryAggregationRepository
+2023-10-25T03:44:57.565-03:00  INFO 17828 --- [main] o.a.c.p.aggregate.AggregateProcessor     : Using CompletionTimeout to trigger after 1000 millis of inactivity.
+2023-10-25T03:44:57.627-03:00  INFO 17828 --- [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:55601]
+2023-10-25T03:44:57.839-03:00  INFO 17828 --- [main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#5ec75178:0/SimpleConnection@42a5bdaf [delegate=amqp://pmtaqueue@127.0.0.1:55601/, localPort=55306]
+2023-10-25T03:44:57.905-03:00  INFO 17828 --- [main] o.a.c.c.s.SpringRabbitMQEndpoint         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (smtp.EmailToSaveAndSend.Queue)durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2023-10-25T03:44:57.924-03:00  INFO 17828 --- [main] .c.s.CamelDirectMessageListenerContainer : Container initialized for queues: [smtp.EmailToSaveAndSend.Queue]
+2023-10-25T03:44:57.927-03:00  INFO 17828 --- [main] o.a.c.impl.engine.AbstractCamelContext   : Routes startup (started:3)
+2023-10-25T03:44:57.927-03:00  INFO 17828 --- [main] o.a.c.impl.engine.AbstractCamelContext   :     Started EmailToSaveAndSendRabbitMqProducerRoute (direct://emailToSaveAndSend)
+2023-10-25T03:44:57.928-03:00  INFO 17828 --- [main] o.a.c.impl.engine.AbstractCamelContext   :     Started WebhookDiscardedToSaveRabbitMqProducerRoute (direct://webhookDiscarded)
+2023-10-25T03:44:57.929-03:00  INFO 17828 --- [main] o.a.c.impl.engine.AbstractCamelContext   :     Started EmailToSaveAndSendRabbitMqConsumerRoute (spring-rabbitmq://smtp.exchange)
+2023-10-25T03:44:57.929-03:00  INFO 17828 --- [main] o.a.c.impl.engine.AbstractCamelContext   : Apache Camel 4.0.1 (camel-1) started in 382ms (build:0ms init:0ms start:382ms)
+2023-10-25T03:44:57.939-03:00  INFO 17828 --- [main] b.c.r.a.SafesenderApiSmtpApplication     : Started SafesenderApiSmtpApplication in 16.45 seconds (process running for 18.652)
+2023-10-25T03:44:57.952-03:00  INFO 17828 --- [not.a.Spring.bean-1] .c.s.CamelDirectMessageListenerContainer : SimpleConsumer [queue=smtp.EmailToSaveAndSend.Queue, index=0, consumerTag=amq.ctag-MEbIYyF6ld-K_6WkuXT6fQ identity=15b5e199] started
+2023-10-25T03:45:13.504-03:00  INFO 17828 --- [http-nio-8686-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-25T03:45:13.505-03:00  INFO 17828 --- [http-nio-8686-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-25T03:45:13.512-03:00  INFO 17828 --- [http-nio-8686-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2023-10-25T03:45:13.853-03:00  INFO 17828 --- [http-nio-8686-exec-1] b.c.r.a.c.MailSenderController           : /one internalid:jj0122@20231025034513845yrtk@u0001.wl001 | uniqueid:jj0122 | sender:u0001.wl001
+2023-10-25T03:45:16.613-03:00  INFO 17828 --- [Camel (camel-1) thread #5 - Delay] b.c.r.a.p.MailSaveBatchProcessor         : INICIO - MailSaveProcessor.process()
+2023-10-25T03:45:16.613-03:00  INFO 17828 --- [Camel (camel-1) thread #5 - Delay] b.c.r.a.p.MailSaveBatchProcessor         : INICIO - MailSaveProcessor 1 mensagens
+2023-10-25T03:45:16.613-03:00  INFO 17828 --- [Camel (camel-1) thread #5 - Delay] br.com.rti.service.MailSaveService       : INICIO saveMail LOOP - 2023-10-25T03:45:16.613003700 
+2023-10-25T03:45:16.829-03:00  INFO 17828 --- [Camel (camel-1) thread #5 - Delay] br.com.rti.service.MailSaveService       : FIM saveMail LOOP - 2023-10-25T03:45:16.828880 - totalTime(milli): 215 - totalTime(seconds): 0
+2023-10-25T03:45:16.830-03:00  INFO 17828 --- [Camel (camel-1) thread #5 - Delay] b.c.r.a.p.MailSaveBatchProcessor         : FIM - MailSaveProcessor 1 mensagens
+2023-10-25T03:45:16.830-03:00  INFO 17828 --- [Camel (camel-1) thread #5 - Delay] r.a.p.MensagemSenderBatchSpringProcessor : INICIO - MensagemBatchSenderSpringProcessor.process()
+2023-10-25T03:45:16.830-03:00  INFO 17828 --- [Camel (camel-1) thread #5 - Delay] r.a.p.MensagemSenderBatchSpringProcessor : INICIO - mailSenderSpringService 1 mensagens
+2023-10-25T03:45:16.830-03:00  INFO 17828 --- [Camel (camel-1) thread #5 - Delay] b.c.r.a.s.MailSenderSpringService        : INICIO sendMail LOOP - 2023-10-25T03:45:16.830864900 
+2023-10-25T03:45:48.966-03:00  INFO 17828 --- [RMI TCP Connection(7)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-10-25T03:45:49.027-03:00  INFO 17828 --- [RMI TCP Connection(7)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-10-25T03:45:49.030-03:00  INFO 17828 --- [RMI TCP Connection(7)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-10-25T03:45:49.034-03:00  WARN 17828 --- [RMI TCP Connection(7)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [Camel (camel-1) thread #2 - ProducerTemplate] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.3.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.3.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.3.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.3.1/java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:460)
+ java.base@17.0.3.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1061)
+ java.base@17.0.3.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.3.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.3.1/java.lang.Thread.run(Thread.java:833)
+2023-10-25T03:45:49.045-03:00  INFO 17828 --- [RMI TCP Connection(7)-127.0.0.1] o.a.c.impl.engine.AbstractCamelContext   : Apache Camel 4.0.1 (camel-1) is shutting down (timeout:45s)
+2023-10-25T03:45:49.062-03:00  INFO 17828 --- [Camel (camel-1) thread #6 - ShutdownTask] .c.s.CamelDirectMessageListenerContainer : Successfully waited for consumers to finish.
+2023-10-25T03:45:49.071-03:00  INFO 17828 --- [Camel (camel-1) thread #5 - Delay] b.c.r.a.s.MailSenderSpringService        : FIM sendMail LOOP - 2023-10-25T03:45:49.070492200 - totalTime(milli): 32239 - totalTime(seconds): 32
+2023-10-25T03:45:49.072-03:00  INFO 17828 --- [Camel (camel-1) thread #5 - Delay] b.c.r.a.s.MailSenderSpringService        : INICIO sendToDiscard: 0
+2023-10-25T03:45:49.072-03:00  INFO 17828 --- [RMI TCP Connection(7)-127.0.0.1] o.a.c.impl.engine.AbstractCamelContext   : Routes stopped (stopped:3)
+2023-10-25T03:45:49.072-03:00  INFO 17828 --- [RMI TCP Connection(7)-127.0.0.1] o.a.c.impl.engine.AbstractCamelContext   :     Stopped EmailToSaveAndSendRabbitMqConsumerRoute (spring-rabbitmq://smtp.exchange)
+2023-10-25T03:45:49.072-03:00  INFO 17828 --- [RMI TCP Connection(7)-127.0.0.1] o.a.c.impl.engine.AbstractCamelContext   :     Stopped WebhookDiscardedToSaveRabbitMqProducerRoute (direct://webhookDiscarded)
+2023-10-25T03:45:49.072-03:00  INFO 17828 --- [RMI TCP Connection(7)-127.0.0.1] o.a.c.impl.engine.AbstractCamelContext   :     Stopped EmailToSaveAndSendRabbitMqProducerRoute (direct://emailToSaveAndSend)
+2023-10-25T03:45:49.076-03:00  INFO 17828 --- [Camel (camel-1) thread #5 - Delay] b.c.r.a.s.MailSenderSpringService        : FIM sendToDiscard: 0
+2023-10-25T03:45:49.077-03:00  INFO 17828 --- [Camel (camel-1) thread #5 - Delay] r.a.p.MensagemSenderBatchSpringProcessor : FIM - mailSenderSpringService 1 mensagens
+2023-10-25T03:45:49.081-03:00  INFO 17828 --- [RMI TCP Connection(7)-127.0.0.1] o.a.c.impl.engine.AbstractCamelContext   : Apache Camel 4.0.1 (camel-1) shutdown in 35ms (uptime:51s)
+2023-10-25T03:45:49.107-03:00  INFO 17828 --- [RMI TCP Connection(7)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-25T03:45:49.112-03:00  INFO 17828 --- [RMI TCP Connection(7)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : SpringBootJPAHikariCP - Shutdown initiated...
+2023-10-25T03:45:49.126-03:00  INFO 17828 --- [RMI TCP Connection(7)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : SpringBootJPAHikariCP - Shutdown completed.
+2023-10-25T03:46:26.493-03:00  INFO 17588 --- [main] b.c.r.a.SafesenderApiSmtpApplication     : Starting SafesenderApiSmtpApplication using Java 17.0.3.1 with PID 17588 (C:\Git\rti\safesender-systems\safesender-api-smtp\target\classes started by rafae in C:\Git\rti\safesender-systems\safesender-api-smtp)
+2023-10-25T03:46:26.497-03:00  INFO 17588 --- [main] b.c.r.a.SafesenderApiSmtpApplication     : No active profile set, falling back to 1 default profile: "default"
+2023-10-25T03:46:27.979-03:00  INFO 17588 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-25T03:46:27.979-03:00  INFO 17588 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-25T03:46:28.108-03:00  INFO 17588 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 115 ms. Found 7 JPA repository interfaces.
+2023-10-25T03:46:28.918-03:00  INFO 17588 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-25T03:46:28.918-03:00  INFO 17588 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-10-25T03:46:28.942-03:00  INFO 17588 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 23 ms. Found 0 JDBC repository interfaces.
+2023-10-25T03:46:29.654-03:00  INFO 17588 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-10-25T03:46:29.729-03:00  INFO 17588 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-10-25T03:46:30.479-03:00  INFO 17588 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8686 (http)
+2023-10-25T03:46:30.502-03:00  INFO 17588 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-25T03:46:30.502-03:00  INFO 17588 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-25T03:46:30.740-03:00  INFO 17588 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-25T03:46:30.742-03:00  INFO 17588 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4100 ms
+2023-10-25T03:46:31.197-03:00  INFO 17588 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-25T03:46:31.383-03:00  INFO 17588 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-10-25T03:46:31.390-03:00  INFO 17588 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-10-25T03:46:31.971-03:00  INFO 17588 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-25T03:46:32.317-03:00  INFO 17588 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-25T03:46:32.365-03:00  INFO 17588 --- [main] com.zaxxer.hikari.HikariDataSource       : SpringBootJPAHikariCP - Starting...
+2023-10-25T03:46:32.824-03:00  INFO 17588 --- [main] com.zaxxer.hikari.pool.HikariPool        : SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@43fe2008
+2023-10-25T03:46:32.828-03:00  INFO 17588 --- [main] com.zaxxer.hikari.HikariDataSource       : SpringBootJPAHikariCP - Start completed.
+2023-10-25T03:46:33.903-03:00  INFO 17588 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-25T03:46:36.300-03:00  INFO 17588 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-25T03:46:36.724-03:00  INFO 17588 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-25T03:46:39.375-03:00  WARN 17588 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-25T03:46:41.214-03:00  WARN 17588 --- [main] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: org.springframework.amqp.rabbit.core.RabbitAdmin
+2023-10-25T03:46:41.287-03:00  INFO 17588 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8686 (http) with context path ''
+2023-10-25T03:46:41.484-03:00  INFO 17588 --- [scheduling-1] br.com.rti.service.CacheService          : renew cache getClientList()
+2023-10-25T03:46:41.486-03:00  INFO 17588 --- [scheduling-1] br.com.rti.service.ClientService         : findAll
+2023-10-25T03:46:41.859-03:00  INFO 17588 --- [main] o.a.c.support.LifecycleStrategySupport   : Autowired property: amqpAdmin on component: spring-rabbitmq as exactly one instance of type: org.springframework.amqp.core.AmqpAdmin (org.springframework.amqp.rabbit.core.RabbitAdmin) found in the registry
+2023-10-25T03:46:41.861-03:00  INFO 17588 --- [main] o.a.c.support.LifecycleStrategySupport   : Autowired property: connectionFactory on component: spring-rabbitmq as exactly one instance of type: org.springframework.amqp.rabbit.connection.ConnectionFactory (org.springframework.amqp.rabbit.connection.CachingConnectionFactory) found in the registry
+2023-10-25T03:46:41.976-03:00  INFO 17588 --- [main] o.a.c.impl.engine.AbstractCamelContext   : Apache Camel 4.0.1 (camel-1) is starting
+2023-10-25T03:46:41.988-03:00  INFO 17588 --- [main] o.a.c.p.aggregate.AggregateProcessor     : Defaulting to MemoryAggregationRepository
+2023-10-25T03:46:41.989-03:00  INFO 17588 --- [main] o.a.c.p.aggregate.AggregateProcessor     : Using CompletionTimeout to trigger after 1000 millis of inactivity.
+2023-10-25T03:46:42.040-03:00  INFO 17588 --- [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:55601]
+2023-10-25T03:46:42.207-03:00  INFO 17588 --- [main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#124e538e:0/SimpleConnection@1baef878 [delegate=amqp://pmtaqueue@127.0.0.1:55601/, localPort=57263]
+2023-10-25T03:46:42.272-03:00  INFO 17588 --- [main] o.a.c.c.s.SpringRabbitMQEndpoint         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (smtp.EmailToSaveAndSend.Queue)durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2023-10-25T03:46:42.289-03:00  INFO 17588 --- [main] .c.s.CamelDirectMessageListenerContainer : Container initialized for queues: [smtp.EmailToSaveAndSend.Queue]
+2023-10-25T03:46:42.293-03:00  INFO 17588 --- [main] o.a.c.impl.engine.AbstractCamelContext   : Routes startup (started:3)
+2023-10-25T03:46:42.293-03:00  INFO 17588 --- [main] o.a.c.impl.engine.AbstractCamelContext   :     Started EmailToSaveAndSendRabbitMqProducerRoute (direct://emailToSaveAndSend)
+2023-10-25T03:46:42.294-03:00  INFO 17588 --- [main] o.a.c.impl.engine.AbstractCamelContext   :     Started WebhookDiscardedToSaveRabbitMqProducerRoute (direct://webhookDiscarded)
+2023-10-25T03:46:42.294-03:00  INFO 17588 --- [main] o.a.c.impl.engine.AbstractCamelContext   :     Started EmailToSaveAndSendRabbitMqConsumerRoute (spring-rabbitmq://smtp.exchange)
+2023-10-25T03:46:42.294-03:00  INFO 17588 --- [main] o.a.c.impl.engine.AbstractCamelContext   : Apache Camel 4.0.1 (camel-1) started in 316ms (build:0ms init:0ms start:316ms)
+2023-10-25T03:46:42.303-03:00  INFO 17588 --- [main] b.c.r.a.SafesenderApiSmtpApplication     : Started SafesenderApiSmtpApplication in 16.638 seconds (process running for 18.354)
+2023-10-25T03:46:42.316-03:00  INFO 17588 --- [not.a.Spring.bean-1] .c.s.CamelDirectMessageListenerContainer : SimpleConsumer [queue=smtp.EmailToSaveAndSend.Queue, index=0, consumerTag=amq.ctag-iwQidoEu5P-ZBRPpel52tw identity=7535ea70] started
+2023-10-25T03:46:47.250-03:00  INFO 17588 --- [http-nio-8686-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-25T03:46:47.251-03:00  INFO 17588 --- [http-nio-8686-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-25T03:46:47.254-03:00  INFO 17588 --- [http-nio-8686-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2023-10-25T03:46:47.597-03:00  INFO 17588 --- [http-nio-8686-exec-2] b.c.r.a.c.MailSenderController           : /one internalid:jj0122@202310250346475823wfe@u0001.wl001 | uniqueid:jj0122 | sender:u0001.wl001
+2023-10-25T03:46:50.017-03:00  INFO 17588 --- [Camel (camel-1) thread #5 - Delay] b.c.r.a.p.MailSaveBatchProcessor         : INICIO - MailSaveProcessor.process()
+2023-10-25T03:46:50.017-03:00  INFO 17588 --- [Camel (camel-1) thread #5 - Delay] b.c.r.a.p.MailSaveBatchProcessor         : INICIO - MailSaveProcessor 1 mensagens
+2023-10-25T03:46:50.017-03:00  INFO 17588 --- [Camel (camel-1) thread #5 - Delay] br.com.rti.service.MailSaveService       : INICIO saveMail LOOP - 2023-10-25T03:46:50.017738400 
+2023-10-25T03:46:50.165-03:00  INFO 17588 --- [Camel (camel-1) thread #5 - Delay] br.com.rti.service.MailSaveService       : FIM saveMail LOOP - 2023-10-25T03:46:50.165541900 - totalTime(milli): 147 - totalTime(seconds): 0
+2023-10-25T03:46:50.165-03:00  INFO 17588 --- [Camel (camel-1) thread #5 - Delay] b.c.r.a.p.MailSaveBatchProcessor         : FIM - MailSaveProcessor 1 mensagens
+2023-10-25T03:46:50.166-03:00  INFO 17588 --- [Camel (camel-1) thread #5 - Delay] r.a.p.MensagemSenderBatchSpringProcessor : INICIO - MensagemBatchSenderSpringProcessor.process()
+2023-10-25T03:46:50.166-03:00  INFO 17588 --- [Camel (camel-1) thread #5 - Delay] r.a.p.MensagemSenderBatchSpringProcessor : INICIO - mailSenderSpringService 1 mensagens
+2023-10-25T03:46:50.166-03:00  INFO 17588 --- [Camel (camel-1) thread #5 - Delay] b.c.r.a.s.MailSenderSpringService        : INICIO sendMail LOOP - 2023-10-25T03:46:50.166107 
+2023-10-25T03:47:22.120-03:00  INFO 17588 --- [RMI TCP Connection(9)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-10-25T03:47:22.168-03:00  INFO 17588 --- [RMI TCP Connection(9)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-10-25T03:47:22.170-03:00  INFO 17588 --- [RMI TCP Connection(9)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-10-25T03:47:22.174-03:00  WARN 17588 --- [RMI TCP Connection(9)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [Camel (camel-1) thread #2 - ProducerTemplate] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.3.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.3.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.3.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.3.1/java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:460)
+ java.base@17.0.3.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1061)
+ java.base@17.0.3.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.3.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.3.1/java.lang.Thread.run(Thread.java:833)
+2023-10-25T03:47:22.183-03:00  INFO 17588 --- [RMI TCP Connection(9)-127.0.0.1] o.a.c.impl.engine.AbstractCamelContext   : Apache Camel 4.0.1 (camel-1) is shutting down (timeout:45s)
+2023-10-25T03:47:22.196-03:00  INFO 17588 --- [Camel (camel-1) thread #6 - ShutdownTask] .c.s.CamelDirectMessageListenerContainer : Successfully waited for consumers to finish.
+2023-10-25T03:47:22.204-03:00  INFO 17588 --- [Camel (camel-1) thread #5 - Delay] b.c.r.a.s.MailSenderSpringService        : FIM sendMail LOOP - 2023-10-25T03:47:22.203800 - totalTime(milli): 32037 - totalTime(seconds): 32
+2023-10-25T03:47:22.205-03:00  INFO 17588 --- [Camel (camel-1) thread #5 - Delay] b.c.r.a.s.MailSenderSpringService        : INICIO sendToDiscard: 0
+2023-10-25T03:47:22.207-03:00  INFO 17588 --- [RMI TCP Connection(9)-127.0.0.1] o.a.c.impl.engine.AbstractCamelContext   : Routes stopped (stopped:3)
+2023-10-25T03:47:22.207-03:00  INFO 17588 --- [RMI TCP Connection(9)-127.0.0.1] o.a.c.impl.engine.AbstractCamelContext   :     Stopped EmailToSaveAndSendRabbitMqConsumerRoute (spring-rabbitmq://smtp.exchange)
+2023-10-25T03:47:22.207-03:00  INFO 17588 --- [RMI TCP Connection(9)-127.0.0.1] o.a.c.impl.engine.AbstractCamelContext   :     Stopped WebhookDiscardedToSaveRabbitMqProducerRoute (direct://webhookDiscarded)
+2023-10-25T03:47:22.207-03:00  INFO 17588 --- [RMI TCP Connection(9)-127.0.0.1] o.a.c.impl.engine.AbstractCamelContext   :     Stopped EmailToSaveAndSendRabbitMqProducerRoute (direct://emailToSaveAndSend)
+2023-10-25T03:47:22.209-03:00  INFO 17588 --- [Camel (camel-1) thread #5 - Delay] b.c.r.a.s.MailSenderSpringService        : FIM sendToDiscard: 0
+2023-10-25T03:47:22.210-03:00  INFO 17588 --- [Camel (camel-1) thread #5 - Delay] r.a.p.MensagemSenderBatchSpringProcessor : FIM - mailSenderSpringService 1 mensagens
+2023-10-25T03:47:22.212-03:00  INFO 17588 --- [RMI TCP Connection(9)-127.0.0.1] o.a.c.impl.engine.AbstractCamelContext   : Apache Camel 4.0.1 (camel-1) shutdown in 30ms (uptime:40s)
+2023-10-25T03:47:22.233-03:00  INFO 17588 --- [RMI TCP Connection(9)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-25T03:47:22.237-03:00  INFO 17588 --- [RMI TCP Connection(9)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : SpringBootJPAHikariCP - Shutdown initiated...
+2023-10-25T03:47:22.248-03:00  INFO 17588 --- [RMI TCP Connection(9)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : SpringBootJPAHikariCP - Shutdown completed.
+2023-10-25T03:50:33.517-03:00  INFO 23148 --- [main] b.c.r.a.SafesenderApiSmtpApplication     : Starting SafesenderApiSmtpApplication using Java 17.0.3.1 with PID 23148 (C:\Git\rti\safesender-systems\safesender-api-smtp\target\classes started by rafae in C:\Git\rti\safesender-systems\safesender-api-smtp)
+2023-10-25T03:50:33.521-03:00  INFO 23148 --- [main] b.c.r.a.SafesenderApiSmtpApplication     : No active profile set, falling back to 1 default profile: "default"
+2023-10-25T03:50:34.931-03:00  INFO 23148 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-25T03:50:34.931-03:00  INFO 23148 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-25T03:50:35.089-03:00  INFO 23148 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 140 ms. Found 7 JPA repository interfaces.
+2023-10-25T03:50:35.760-03:00  INFO 23148 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-25T03:50:35.760-03:00  INFO 23148 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-10-25T03:50:35.778-03:00  INFO 23148 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17 ms. Found 0 JDBC repository interfaces.
+2023-10-25T03:50:36.307-03:00  INFO 23148 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-10-25T03:50:36.364-03:00  INFO 23148 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-10-25T03:50:36.941-03:00  INFO 23148 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8686 (http)
+2023-10-25T03:50:36.962-03:00  INFO 23148 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-25T03:50:36.962-03:00  INFO 23148 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-25T03:50:37.177-03:00  INFO 23148 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-25T03:50:37.179-03:00  INFO 23148 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3529 ms
+2023-10-25T03:50:37.593-03:00  INFO 23148 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-25T03:50:37.763-03:00  INFO 23148 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-10-25T03:50:37.768-03:00  INFO 23148 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-10-25T03:50:38.270-03:00  INFO 23148 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-25T03:50:38.631-03:00  INFO 23148 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-25T03:50:38.683-03:00  INFO 23148 --- [main] com.zaxxer.hikari.HikariDataSource       : SpringBootJPAHikariCP - Starting...
+2023-10-25T03:50:39.186-03:00  INFO 23148 --- [main] com.zaxxer.hikari.pool.HikariPool        : SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@552bee2f
+2023-10-25T03:50:39.191-03:00  INFO 23148 --- [main] com.zaxxer.hikari.HikariDataSource       : SpringBootJPAHikariCP - Start completed.
+2023-10-25T03:50:40.389-03:00  INFO 23148 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-25T03:50:42.891-03:00  INFO 23148 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-25T03:50:43.313-03:00  INFO 23148 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-25T03:50:45.403-03:00  WARN 23148 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-25T03:50:47.140-03:00  WARN 23148 --- [main] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: org.springframework.amqp.rabbit.core.RabbitAdmin
+2023-10-25T03:50:47.230-03:00  INFO 23148 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8686 (http) with context path ''
+2023-10-25T03:50:47.500-03:00  INFO 23148 --- [scheduling-1] br.com.rti.service.CacheService          : renew cache getClientList()
+2023-10-25T03:50:47.502-03:00  INFO 23148 --- [scheduling-1] br.com.rti.service.ClientService         : findAll
+2023-10-25T03:50:47.768-03:00  INFO 23148 --- [main] o.a.c.support.LifecycleStrategySupport   : Autowired property: amqpAdmin on component: spring-rabbitmq as exactly one instance of type: org.springframework.amqp.core.AmqpAdmin (org.springframework.amqp.rabbit.core.RabbitAdmin) found in the registry
+2023-10-25T03:50:47.769-03:00  INFO 23148 --- [main] o.a.c.support.LifecycleStrategySupport   : Autowired property: connectionFactory on component: spring-rabbitmq as exactly one instance of type: org.springframework.amqp.rabbit.connection.ConnectionFactory (org.springframework.amqp.rabbit.connection.CachingConnectionFactory) found in the registry
+2023-10-25T03:50:48.003-03:00  INFO 23148 --- [main] o.a.c.impl.engine.AbstractCamelContext   : Apache Camel 4.0.1 (camel-1) is starting
+2023-10-25T03:50:48.011-03:00  INFO 23148 --- [main] o.a.c.p.aggregate.AggregateProcessor     : Defaulting to MemoryAggregationRepository
+2023-10-25T03:50:48.012-03:00  INFO 23148 --- [main] o.a.c.p.aggregate.AggregateProcessor     : Using CompletionTimeout to trigger after 1000 millis of inactivity.
+2023-10-25T03:50:48.062-03:00  INFO 23148 --- [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:55601]
+2023-10-25T03:50:48.230-03:00  INFO 23148 --- [main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#124e538e:0/SimpleConnection@3d7d72f2 [delegate=amqp://pmtaqueue@127.0.0.1:55601/, localPort=62633]
+2023-10-25T03:50:48.290-03:00  INFO 23148 --- [main] o.a.c.c.s.SpringRabbitMQEndpoint         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (smtp.EmailToSaveAndSend.Queue)durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2023-10-25T03:50:48.309-03:00  INFO 23148 --- [main] .c.s.CamelDirectMessageListenerContainer : Container initialized for queues: [smtp.EmailToSaveAndSend.Queue]
+2023-10-25T03:50:48.314-03:00  INFO 23148 --- [main] o.a.c.impl.engine.AbstractCamelContext   : Routes startup (started:3)
+2023-10-25T03:50:48.315-03:00  INFO 23148 --- [main] o.a.c.impl.engine.AbstractCamelContext   :     Started EmailToSaveAndSendRabbitMqConsumerRoute (spring-rabbitmq://smtp.exchange)
+2023-10-25T03:50:48.316-03:00  INFO 23148 --- [main] o.a.c.impl.engine.AbstractCamelContext   :     Started WebhookDiscardedToSaveRabbitMqProducerRoute (direct://webhookDiscarded)
+2023-10-25T03:50:48.316-03:00  INFO 23148 --- [main] o.a.c.impl.engine.AbstractCamelContext   :     Started EmailToSaveAndSendRabbitMqProducerRoute (direct://emailToSaveAndSend)
+2023-10-25T03:50:48.317-03:00  INFO 23148 --- [main] o.a.c.impl.engine.AbstractCamelContext   : Apache Camel 4.0.1 (camel-1) started in 312ms (build:0ms init:0ms start:312ms)
+2023-10-25T03:50:48.327-03:00  INFO 23148 --- [main] b.c.r.a.SafesenderApiSmtpApplication     : Started SafesenderApiSmtpApplication in 15.755 seconds (process running for 17.567)
+2023-10-25T03:50:48.336-03:00  INFO 23148 --- [not.a.Spring.bean-1] .c.s.CamelDirectMessageListenerContainer : SimpleConsumer [queue=smtp.EmailToSaveAndSend.Queue, index=0, consumerTag=amq.ctag-y4hq9dD6FZv_3dfRPvLgSA identity=176ba87c] started
+2023-10-25T03:51:05.357-03:00  INFO 23148 --- [http-nio-8686-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-25T03:51:05.357-03:00  INFO 23148 --- [http-nio-8686-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-25T03:51:05.367-03:00  INFO 23148 --- [http-nio-8686-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2023-10-25T03:51:05.701-03:00  INFO 23148 --- [http-nio-8686-exec-1] b.c.r.a.c.MailSenderController           : /one internalid:jj0122@20231025035105690tfkn@u0001.wl001 | uniqueid:jj0122 | sender:u0001.wl001
+2023-10-25T03:51:08.073-03:00  INFO 23148 --- [Camel (camel-1) thread #5 - Delay] b.c.r.a.p.MailSaveBatchProcessor         : INICIO - MailSaveProcessor.process()
+2023-10-25T03:51:08.075-03:00  INFO 23148 --- [Camel (camel-1) thread #5 - Delay] b.c.r.a.p.MailSaveBatchProcessor         : INICIO - MailSaveProcessor 1 mensagens
+2023-10-25T03:51:08.075-03:00  INFO 23148 --- [Camel (camel-1) thread #5 - Delay] br.com.rti.service.MailSaveService       : INICIO saveMail LOOP - 2023-10-25T03:51:08.075117100 
+2023-10-25T03:51:08.308-03:00  INFO 23148 --- [Camel (camel-1) thread #5 - Delay] br.com.rti.service.MailSaveService       : FIM saveMail LOOP - 2023-10-25T03:51:08.308839800 - totalTime(milli): 233 - totalTime(seconds): 0
+2023-10-25T03:51:08.310-03:00  INFO 23148 --- [Camel (camel-1) thread #5 - Delay] b.c.r.a.p.MailSaveBatchProcessor         : FIM - MailSaveProcessor 1 mensagens
+2023-10-25T03:51:08.310-03:00  INFO 23148 --- [Camel (camel-1) thread #5 - Delay] r.a.p.MensagemSenderBatchSpringProcessor : INICIO - MensagemBatchSenderSpringProcessor.process()
+2023-10-25T03:51:08.310-03:00  INFO 23148 --- [Camel (camel-1) thread #5 - Delay] r.a.p.MensagemSenderBatchSpringProcessor : INICIO - mailSenderSpringService 1 mensagens
+2023-10-25T03:51:08.311-03:00  INFO 23148 --- [Camel (camel-1) thread #5 - Delay] b.c.r.a.s.MailSenderSpringService        : INICIO sendMail LOOP - 2023-10-25T03:51:08.310945600 
+2023-10-25T03:51:48.002-03:00  INFO 23148 --- [scheduling-1] br.com.rti.service.CacheService          : renew cache getClientList()
+2023-10-25T03:51:48.002-03:00  INFO 23148 --- [scheduling-1] br.com.rti.service.ClientService         : findAll
+2023-10-25T03:52:29.389-03:00  INFO 23148 --- [RMI TCP Connection(10)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-10-25T03:52:29.446-03:00  INFO 23148 --- [RMI TCP Connection(10)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-10-25T03:52:29.448-03:00  INFO 23148 --- [RMI TCP Connection(10)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-10-25T03:52:29.464-03:00  INFO 23148 --- [RMI TCP Connection(10)-127.0.0.1] o.a.c.impl.engine.AbstractCamelContext   : Apache Camel 4.0.1 (camel-1) is shutting down (timeout:45s)
+2023-10-25T03:52:29.479-03:00  INFO 23148 --- [Camel (camel-1) thread #6 - ShutdownTask] .c.s.CamelDirectMessageListenerContainer : Successfully waited for consumers to finish.
+2023-10-25T03:52:29.489-03:00  INFO 23148 --- [Camel (camel-1) thread #5 - Delay] b.c.r.a.s.MailSenderSpringService        : FIM sendMail LOOP - 2023-10-25T03:52:29.488521900 - totalTime(milli): 81177 - totalTime(seconds): 81
+2023-10-25T03:52:29.489-03:00  INFO 23148 --- [Camel (camel-1) thread #5 - Delay] b.c.r.a.s.MailSenderSpringService        : INICIO sendToDiscard: 0
+2023-10-25T03:52:29.489-03:00  INFO 23148 --- [RMI TCP Connection(10)-127.0.0.1] o.a.c.impl.engine.AbstractCamelContext   : Routes stopped (stopped:3)
+2023-10-25T03:52:29.489-03:00  INFO 23148 --- [RMI TCP Connection(10)-127.0.0.1] o.a.c.impl.engine.AbstractCamelContext   :     Stopped EmailToSaveAndSendRabbitMqProducerRoute (direct://emailToSaveAndSend)
+2023-10-25T03:52:29.489-03:00  INFO 23148 --- [RMI TCP Connection(10)-127.0.0.1] o.a.c.impl.engine.AbstractCamelContext   :     Stopped WebhookDiscardedToSaveRabbitMqProducerRoute (direct://webhookDiscarded)
+2023-10-25T03:52:29.489-03:00  INFO 23148 --- [RMI TCP Connection(10)-127.0.0.1] o.a.c.impl.engine.AbstractCamelContext   :     Stopped EmailToSaveAndSendRabbitMqConsumerRoute (spring-rabbitmq://smtp.exchange)
+2023-10-25T03:52:29.493-03:00  INFO 23148 --- [Camel (camel-1) thread #5 - Delay] b.c.r.a.s.MailSenderSpringService        : FIM sendToDiscard: 0
+2023-10-25T03:52:29.494-03:00  INFO 23148 --- [Camel (camel-1) thread #5 - Delay] r.a.p.MensagemSenderBatchSpringProcessor : FIM - mailSenderSpringService 1 mensagens
+2023-10-25T03:52:29.499-03:00  INFO 23148 --- [RMI TCP Connection(10)-127.0.0.1] o.a.c.impl.engine.AbstractCamelContext   : Apache Camel 4.0.1 (camel-1) shutdown in 34ms (uptime:1m41s)
+2023-10-25T03:52:29.524-03:00  INFO 23148 --- [RMI TCP Connection(10)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-25T03:52:29.527-03:00  INFO 23148 --- [RMI TCP Connection(10)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : SpringBootJPAHikariCP - Shutdown initiated...
+2023-10-25T03:52:29.538-03:00  INFO 23148 --- [RMI TCP Connection(10)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : SpringBootJPAHikariCP - Shutdown completed.
+2023-10-25T03:52:41.132-03:00  INFO 29460 --- [main] b.c.r.a.SafesenderApiSmtpApplication     : Starting SafesenderApiSmtpApplication using Java 17.0.3.1 with PID 29460 (C:\Git\rti\safesender-systems\safesender-api-smtp\target\classes started by rafae in C:\Git\rti\safesender-systems\safesender-api-smtp)
+2023-10-25T03:52:41.136-03:00  INFO 29460 --- [main] b.c.r.a.SafesenderApiSmtpApplication     : No active profile set, falling back to 1 default profile: "default"
+2023-10-25T03:52:42.283-03:00  INFO 29460 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-25T03:52:42.284-03:00  INFO 29460 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-25T03:52:42.401-03:00  INFO 29460 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 103 ms. Found 7 JPA repository interfaces.
+2023-10-25T03:52:43.384-03:00  INFO 29460 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-25T03:52:43.386-03:00  INFO 29460 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-10-25T03:52:43.414-03:00  INFO 29460 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27 ms. Found 0 JDBC repository interfaces.
+2023-10-25T03:52:44.117-03:00  INFO 29460 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-10-25T03:52:44.192-03:00  INFO 29460 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-10-25T03:52:44.880-03:00  INFO 29460 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8686 (http)
+2023-10-25T03:52:44.899-03:00  INFO 29460 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-25T03:52:44.899-03:00  INFO 29460 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-25T03:52:45.126-03:00  INFO 29460 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-25T03:52:45.126-03:00  INFO 29460 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3880 ms
+2023-10-25T03:52:45.541-03:00  INFO 29460 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-25T03:52:45.729-03:00  INFO 29460 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-10-25T03:52:45.735-03:00  INFO 29460 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-10-25T03:52:46.292-03:00  INFO 29460 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-25T03:52:46.682-03:00  INFO 29460 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-25T03:52:46.733-03:00  INFO 29460 --- [main] com.zaxxer.hikari.HikariDataSource       : SpringBootJPAHikariCP - Starting...
+2023-10-25T03:52:47.247-03:00  INFO 29460 --- [main] com.zaxxer.hikari.pool.HikariPool        : SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@35fb3209
+2023-10-25T03:52:47.251-03:00  INFO 29460 --- [main] com.zaxxer.hikari.HikariDataSource       : SpringBootJPAHikariCP - Start completed.
+2023-10-25T03:52:48.414-03:00  INFO 29460 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-25T03:52:50.667-03:00  INFO 29460 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-25T03:52:51.050-03:00  INFO 29460 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-25T03:52:53.561-03:00  WARN 29460 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-25T03:52:55.358-03:00  WARN 29460 --- [main] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: org.springframework.amqp.rabbit.core.RabbitAdmin
+2023-10-25T03:52:55.441-03:00  INFO 29460 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8686 (http) with context path ''
+2023-10-25T03:52:55.786-03:00  INFO 29460 --- [scheduling-1] br.com.rti.service.CacheService          : renew cache getClientList()
+2023-10-25T03:52:55.788-03:00  INFO 29460 --- [scheduling-1] br.com.rti.service.ClientService         : findAll
+2023-10-25T03:52:56.037-03:00  INFO 29460 --- [main] o.a.c.support.LifecycleStrategySupport   : Autowired property: amqpAdmin on component: spring-rabbitmq as exactly one instance of type: org.springframework.amqp.core.AmqpAdmin (org.springframework.amqp.rabbit.core.RabbitAdmin) found in the registry
+2023-10-25T03:52:56.037-03:00  INFO 29460 --- [main] o.a.c.support.LifecycleStrategySupport   : Autowired property: connectionFactory on component: spring-rabbitmq as exactly one instance of type: org.springframework.amqp.rabbit.connection.ConnectionFactory (org.springframework.amqp.rabbit.connection.CachingConnectionFactory) found in the registry
+2023-10-25T03:52:56.349-03:00  INFO 29460 --- [main] o.a.c.impl.engine.AbstractCamelContext   : Apache Camel 4.0.1 (camel-1) is starting
+2023-10-25T03:52:56.358-03:00  INFO 29460 --- [main] o.a.c.p.aggregate.AggregateProcessor     : Defaulting to MemoryAggregationRepository
+2023-10-25T03:52:56.359-03:00  INFO 29460 --- [main] o.a.c.p.aggregate.AggregateProcessor     : Using CompletionTimeout to trigger after 1000 millis of inactivity.
+2023-10-25T03:52:56.410-03:00  INFO 29460 --- [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:55601]
+2023-10-25T03:52:56.579-03:00  INFO 29460 --- [main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#3b75b7b4:0/SimpleConnection@5b1295c0 [delegate=amqp://pmtaqueue@127.0.0.1:55601/, localPort=49354]
+2023-10-25T03:52:56.638-03:00  INFO 29460 --- [main] o.a.c.c.s.SpringRabbitMQEndpoint         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (smtp.EmailToSaveAndSend.Queue)durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2023-10-25T03:52:56.655-03:00  INFO 29460 --- [main] .c.s.CamelDirectMessageListenerContainer : Container initialized for queues: [smtp.EmailToSaveAndSend.Queue]
+2023-10-25T03:52:56.659-03:00  INFO 29460 --- [main] o.a.c.impl.engine.AbstractCamelContext   : Routes startup (started:3)
+2023-10-25T03:52:56.660-03:00  INFO 29460 --- [main] o.a.c.impl.engine.AbstractCamelContext   :     Started EmailToSaveAndSendRabbitMqConsumerRoute (spring-rabbitmq://smtp.exchange)
+2023-10-25T03:52:56.660-03:00  INFO 29460 --- [main] o.a.c.impl.engine.AbstractCamelContext   :     Started WebhookDiscardedToSaveRabbitMqProducerRoute (direct://webhookDiscarded)
+2023-10-25T03:52:56.660-03:00  INFO 29460 --- [main] o.a.c.impl.engine.AbstractCamelContext   :     Started EmailToSaveAndSendRabbitMqProducerRoute (direct://emailToSaveAndSend)
+2023-10-25T03:52:56.661-03:00  INFO 29460 --- [main] o.a.c.impl.engine.AbstractCamelContext   : Apache Camel 4.0.1 (camel-1) started in 310ms (build:0ms init:0ms start:310ms)
+2023-10-25T03:52:56.671-03:00  INFO 29460 --- [main] b.c.r.a.SafesenderApiSmtpApplication     : Started SafesenderApiSmtpApplication in 16.385 seconds (process running for 18.495)
+2023-10-25T03:52:56.684-03:00  INFO 29460 --- [not.a.Spring.bean-1] .c.s.CamelDirectMessageListenerContainer : SimpleConsumer [queue=smtp.EmailToSaveAndSend.Queue, index=0, consumerTag=amq.ctag-ikui_Hby5hL-c4zB2JDvFA identity=7d05fa14] started
+2023-10-25T03:53:03.761-03:00  INFO 29460 --- [http-nio-8686-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-25T03:53:03.764-03:00  INFO 29460 --- [http-nio-8686-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-25T03:53:03.767-03:00  INFO 29460 --- [http-nio-8686-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2023-10-25T03:53:04.019-03:00  INFO 29460 --- [http-nio-8686-exec-3] b.c.r.a.c.MailSenderController           : /one internalid:jj0122@20231025035304009ekt9@u0001.wl001 | uniqueid:jj0122 | sender:u0001.wl001
+2023-10-25T03:53:06.394-03:00  INFO 29460 --- [Camel (camel-1) thread #5 - Delay] b.c.r.a.p.MailSaveBatchProcessor         : INICIO - MailSaveProcessor.process()
+2023-10-25T03:53:06.395-03:00  INFO 29460 --- [Camel (camel-1) thread #5 - Delay] b.c.r.a.p.MailSaveBatchProcessor         : INICIO - MailSaveProcessor 1 mensagens
+2023-10-25T03:53:06.395-03:00  INFO 29460 --- [Camel (camel-1) thread #5 - Delay] br.com.rti.service.MailSaveService       : INICIO saveMail LOOP - 2023-10-25T03:53:06.395254100 
+2023-10-25T03:53:06.586-03:00  INFO 29460 --- [Camel (camel-1) thread #5 - Delay] br.com.rti.service.MailSaveService       : FIM saveMail LOOP - 2023-10-25T03:53:06.586767800 - totalTime(milli): 191 - totalTime(seconds): 0
+2023-10-25T03:53:06.587-03:00  INFO 29460 --- [Camel (camel-1) thread #5 - Delay] b.c.r.a.p.MailSaveBatchProcessor         : FIM - MailSaveProcessor 1 mensagens
+2023-10-25T03:53:06.587-03:00  INFO 29460 --- [Camel (camel-1) thread #5 - Delay] r.a.p.MensagemSenderBatchSpringProcessor : INICIO - MensagemBatchSenderSpringProcessor.process()
+2023-10-25T03:53:06.587-03:00  INFO 29460 --- [Camel (camel-1) thread #5 - Delay] r.a.p.MensagemSenderBatchSpringProcessor : INICIO - mailSenderSpringService 1 mensagens
+2023-10-25T03:53:06.588-03:00  INFO 29460 --- [Camel (camel-1) thread #5 - Delay] b.c.r.a.s.MailSenderSpringService        : INICIO sendMail LOOP - 2023-10-25T03:53:06.587922500 
+2023-10-25T03:53:56.367-03:00  INFO 29460 --- [scheduling-1] br.com.rti.service.CacheService          : renew cache getClientList()
+2023-10-25T03:53:56.368-03:00  INFO 29460 --- [scheduling-1] br.com.rti.service.ClientService         : findAll
+2023-10-25T03:54:56.386-03:00  INFO 29460 --- [scheduling-1] br.com.rti.service.CacheService          : renew cache getClientList()
+2023-10-25T03:54:56.386-03:00  INFO 29460 --- [scheduling-1] br.com.rti.service.ClientService         : findAll
+2023-10-25T03:55:00.147-03:00  INFO 29460 --- [RMI TCP Connection(11)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-10-25T03:55:00.204-03:00  INFO 29460 --- [RMI TCP Connection(11)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-10-25T03:55:00.207-03:00  INFO 29460 --- [RMI TCP Connection(11)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-10-25T03:55:00.220-03:00  INFO 29460 --- [RMI TCP Connection(11)-127.0.0.1] o.a.c.impl.engine.AbstractCamelContext   : Apache Camel 4.0.1 (camel-1) is shutting down (timeout:45s)
+2023-10-25T03:55:00.236-03:00  INFO 29460 --- [Camel (camel-1) thread #6 - ShutdownTask] .c.s.CamelDirectMessageListenerContainer : Successfully waited for consumers to finish.
+2023-10-25T03:55:00.244-03:00  INFO 29460 --- [Camel (camel-1) thread #5 - Delay] b.c.r.a.s.MailSenderSpringService        : FIM sendMail LOOP - 2023-10-25T03:55:00.243386300 - totalTime(milli): 113655 - totalTime(seconds): 113
+2023-10-25T03:55:00.244-03:00  INFO 29460 --- [Camel (camel-1) thread #5 - Delay] b.c.r.a.s.MailSenderSpringService        : INICIO sendToDiscard: 0
+2023-10-25T03:55:00.244-03:00  INFO 29460 --- [RMI TCP Connection(11)-127.0.0.1] o.a.c.impl.engine.AbstractCamelContext   : Routes stopped (stopped:3)
+2023-10-25T03:55:00.244-03:00  INFO 29460 --- [RMI TCP Connection(11)-127.0.0.1] o.a.c.impl.engine.AbstractCamelContext   :     Stopped EmailToSaveAndSendRabbitMqProducerRoute (direct://emailToSaveAndSend)
+2023-10-25T03:55:00.245-03:00  INFO 29460 --- [RMI TCP Connection(11)-127.0.0.1] o.a.c.impl.engine.AbstractCamelContext   :     Stopped WebhookDiscardedToSaveRabbitMqProducerRoute (direct://webhookDiscarded)
+2023-10-25T03:55:00.245-03:00  INFO 29460 --- [RMI TCP Connection(11)-127.0.0.1] o.a.c.impl.engine.AbstractCamelContext   :     Stopped EmailToSaveAndSendRabbitMqConsumerRoute (spring-rabbitmq://smtp.exchange)
+2023-10-25T03:55:00.251-03:00  WARN 29460 --- [RMI TCP Connection(11)-127.0.0.1] o.a.c.i.e.DefaultInflightRepository      : Shutting down while there are still 1 inflight exchanges.
+2023-10-25T03:55:00.253-03:00  INFO 29460 --- [Camel (camel-1) thread #5 - Delay] b.c.r.a.s.MailSenderSpringService        : FIM sendToDiscard: 0
+2023-10-25T03:55:00.253-03:00  INFO 29460 --- [Camel (camel-1) thread #5 - Delay] r.a.p.MensagemSenderBatchSpringProcessor : FIM - mailSenderSpringService 1 mensagens
+2023-10-25T03:55:00.254-03:00  INFO 29460 --- [RMI TCP Connection(11)-127.0.0.1] o.a.c.impl.engine.AbstractCamelContext   : Apache Camel 4.0.1 (camel-1) shutdown in 33ms (uptime:2m3s)
+2023-10-25T03:55:00.281-03:00  INFO 29460 --- [RMI TCP Connection(11)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-25T03:55:00.285-03:00  INFO 29460 --- [RMI TCP Connection(11)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : SpringBootJPAHikariCP - Shutdown initiated...
+2023-10-25T03:55:00.293-03:00  INFO 29460 --- [RMI TCP Connection(11)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : SpringBootJPAHikariCP - Shutdown completed.
+2023-10-25T22:29:34.189-03:00  INFO 46132 --- [main] b.c.r.a.SafesenderApiSmtpApplication     : Starting SafesenderApiSmtpApplication using Java 17.0.3.1 with PID 46132 (C:\Git\rti\safesender-systems\safesender-api-smtp\target\classes started by rafae in C:\Git\rti\safesender-systems\safesender-api-smtp)
+2023-10-25T22:29:34.196-03:00  INFO 46132 --- [main] b.c.r.a.SafesenderApiSmtpApplication     : No active profile set, falling back to 1 default profile: "default"
+2023-10-25T22:29:35.896-03:00  INFO 46132 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-25T22:29:35.897-03:00  INFO 46132 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-25T22:29:36.119-03:00  INFO 46132 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 194 ms. Found 7 JPA repository interfaces.
+2023-10-25T22:29:37.153-03:00  INFO 46132 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-25T22:29:37.154-03:00  INFO 46132 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-10-25T22:29:37.182-03:00  INFO 46132 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27 ms. Found 0 JDBC repository interfaces.
+2023-10-25T22:29:37.957-03:00  INFO 46132 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-10-25T22:29:38.065-03:00  INFO 46132 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-10-25T22:29:38.730-03:00  INFO 46132 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8686 (http)
+2023-10-25T22:29:38.748-03:00  INFO 46132 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-25T22:29:38.748-03:00  INFO 46132 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-25T22:29:38.939-03:00  INFO 46132 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-25T22:29:38.940-03:00  INFO 46132 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4589 ms
+2023-10-25T22:29:39.312-03:00  INFO 46132 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-25T22:29:39.483-03:00  INFO 46132 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-10-25T22:29:39.488-03:00  INFO 46132 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-10-25T22:29:39.861-03:00  INFO 46132 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-25T22:29:40.181-03:00  INFO 46132 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-25T22:29:40.222-03:00  INFO 46132 --- [main] com.zaxxer.hikari.HikariDataSource       : SpringBootJPAHikariCP - Starting...
+2023-10-25T22:29:40.751-03:00  INFO 46132 --- [main] com.zaxxer.hikari.pool.HikariPool        : SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@2d0f548a
+2023-10-25T22:29:40.754-03:00  INFO 46132 --- [main] com.zaxxer.hikari.HikariDataSource       : SpringBootJPAHikariCP - Start completed.
+2023-10-25T22:29:41.920-03:00  INFO 46132 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-25T22:29:44.546-03:00  INFO 46132 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-25T22:29:45.051-03:00  INFO 46132 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-25T22:29:47.796-03:00  WARN 46132 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-25T22:29:49.266-03:00  WARN 46132 --- [main] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: org.springframework.amqp.rabbit.core.RabbitAdmin
+2023-10-25T22:29:49.345-03:00  INFO 46132 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8686 (http) with context path ''
+2023-10-25T22:29:49.533-03:00  INFO 46132 --- [scheduling-1] br.com.rti.service.CacheService          : renew cache getClientList()
+2023-10-25T22:29:49.535-03:00  INFO 46132 --- [scheduling-1] br.com.rti.service.ClientService         : findAll
+2023-10-25T22:29:49.833-03:00  INFO 46132 --- [main] o.a.c.support.LifecycleStrategySupport   : Autowired property: amqpAdmin on component: spring-rabbitmq as exactly one instance of type: org.springframework.amqp.core.AmqpAdmin (org.springframework.amqp.rabbit.core.RabbitAdmin) found in the registry
+2023-10-25T22:29:49.834-03:00  INFO 46132 --- [main] o.a.c.support.LifecycleStrategySupport   : Autowired property: connectionFactory on component: spring-rabbitmq as exactly one instance of type: org.springframework.amqp.rabbit.connection.ConnectionFactory (org.springframework.amqp.rabbit.connection.CachingConnectionFactory) found in the registry
+2023-10-25T22:29:49.985-03:00  INFO 46132 --- [main] o.a.c.impl.engine.AbstractCamelContext   : Apache Camel 4.0.1 (camel-1) is starting
+2023-10-25T22:29:49.998-03:00  INFO 46132 --- [main] o.a.c.p.aggregate.AggregateProcessor     : Defaulting to MemoryAggregationRepository
+2023-10-25T22:29:49.999-03:00  INFO 46132 --- [main] o.a.c.p.aggregate.AggregateProcessor     : Using CompletionTimeout to trigger after 1000 millis of inactivity.
+2023-10-25T22:29:50.062-03:00  INFO 46132 --- [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:55601]
+2023-10-25T22:29:50.311-03:00  INFO 46132 --- [main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#6ac9742e:0/SimpleConnection@51535304 [delegate=amqp://pmtaqueue@127.0.0.1:55601/, localPort=49534]
+2023-10-25T22:29:50.394-03:00  INFO 46132 --- [main] o.a.c.c.s.SpringRabbitMQEndpoint         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (smtp.EmailToSaveAndSend.Queue)durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2023-10-25T22:29:50.424-03:00  INFO 46132 --- [main] .c.s.CamelDirectMessageListenerContainer : Container initialized for queues: [smtp.EmailToSaveAndSend.Queue]
+2023-10-25T22:29:50.431-03:00  INFO 46132 --- [main] o.a.c.impl.engine.AbstractCamelContext   : Routes startup (started:3)
+2023-10-25T22:29:50.431-03:00  INFO 46132 --- [main] o.a.c.impl.engine.AbstractCamelContext   :     Started WebhookDiscardedToSaveRabbitMqProducerRoute (direct://webhookDiscarded)
+2023-10-25T22:29:50.431-03:00  INFO 46132 --- [main] o.a.c.impl.engine.AbstractCamelContext   :     Started EmailToSaveAndSendRabbitMqConsumerRoute (spring-rabbitmq://smtp.exchange)
+2023-10-25T22:29:50.432-03:00  INFO 46132 --- [main] o.a.c.impl.engine.AbstractCamelContext   :     Started EmailToSaveAndSendRabbitMqProducerRoute (direct://emailToSaveAndSend)
+2023-10-25T22:29:50.432-03:00  INFO 46132 --- [main] o.a.c.impl.engine.AbstractCamelContext   : Apache Camel 4.0.1 (camel-1) started in 446ms (build:0ms init:0ms start:446ms)
+2023-10-25T22:29:50.442-03:00  INFO 46132 --- [main] b.c.r.a.SafesenderApiSmtpApplication     : Started SafesenderApiSmtpApplication in 17.347 seconds (process running for 19.307)
+2023-10-25T22:29:50.460-03:00  INFO 46132 --- [not.a.Spring.bean-1] .c.s.CamelDirectMessageListenerContainer : SimpleConsumer [queue=smtp.EmailToSaveAndSend.Queue, index=0, consumerTag=amq.ctag-okwIL_J-JM1tKZmubkY8Sg identity=7535ea70] started
+2023-10-25T22:30:03.462-03:00  INFO 46132 --- [http-nio-8686-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-25T22:30:03.463-03:00  INFO 46132 --- [http-nio-8686-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-25T22:30:03.466-03:00  INFO 46132 --- [http-nio-8686-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2023-10-25T22:30:03.804-03:00  INFO 46132 --- [http-nio-8686-exec-1] b.c.r.a.c.MailSenderController           : /one internalid:001@20231025223003797645c@u0001.wl001 | uniqueid:001 | sender:u0001.wl001
+2023-10-25T22:30:07.039-03:00  INFO 46132 --- [Camel (camel-1) thread #5 - Delay] b.c.r.a.p.MailSaveBatchProcessor         : INICIO - MailSaveProcessor.process()
+2023-10-25T22:30:07.040-03:00  INFO 46132 --- [Camel (camel-1) thread #5 - Delay] b.c.r.a.p.MailSaveBatchProcessor         : INICIO - MailSaveProcessor 1 mensagens
+2023-10-25T22:30:07.040-03:00  INFO 46132 --- [Camel (camel-1) thread #5 - Delay] br.com.rti.service.MailSaveService       : INICIO saveMail LOOP - 2023-10-25T22:30:07.040446700 
+2023-10-25T22:30:07.258-03:00  INFO 46132 --- [Camel (camel-1) thread #5 - Delay] br.com.rti.service.MailSaveService       : FIM saveMail LOOP - 2023-10-25T22:30:07.258865800 - totalTime(milli): 218 - totalTime(seconds): 0
+2023-10-25T22:30:07.259-03:00  INFO 46132 --- [Camel (camel-1) thread #5 - Delay] b.c.r.a.p.MailSaveBatchProcessor         : FIM - MailSaveProcessor 1 mensagens
+2023-10-25T22:30:07.260-03:00  INFO 46132 --- [Camel (camel-1) thread #5 - Delay] r.a.p.MensagemSenderBatchSpringProcessor : INICIO - MensagemBatchSenderSpringProcessor.process()
+2023-10-25T22:30:07.260-03:00  INFO 46132 --- [Camel (camel-1) thread #5 - Delay] r.a.p.MensagemSenderBatchSpringProcessor : INICIO - mailSenderSpringService 1 mensagens
+2023-10-25T22:30:07.260-03:00  INFO 46132 --- [Camel (camel-1) thread #5 - Delay] b.c.r.a.s.MailSenderSpringService        : INICIO sendMail LOOP - 2023-10-25T22:30:07.260674200 
+2023-10-25T22:30:25.819-03:00  INFO 46132 --- [pool-7-thread-1] b.c.r.a.s.MailSenderSpringService        : <table align="center" border="0" cellpadding="0" cellspacing="0" style="width:100%"> 
+ <tbody> 
+  <tr> 
+   <td style="vertical-align:top"> 
+    <table align="center" border="1" cellpadding="0" cellspacing="0" class="wrapper" style="border-collapse:separate!important; border-radius:8px; border:1px solid #eaeced; max-width:640px; overflow:hidden; width:640px"> 
+     <tbody> 
+      <tr> 
+       <td><!--  --> 
+        <table align="center" border="0" cellpadding="0" cellspacing="0" class="ml-default" style="width:100%"> 
+         <tbody> 
+          <tr> 
+           <td> 
+            <table align="center" border="0" cellpadding="0" cellspacing="0" class="ml-default-border" style="width:100%"> 
+             <tbody> 
+              <tr> 
+               <td style="vertical-align:top"><!--[if gte mso 9]>
+                            <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:640px; background-color:none;">
+                                <v:fill src="" type="frame" aspect="atleast" color="none" />
+                                <v:textbox style="mso-fit-shape-to-text:true" inset="0,0,0,0">
+                                    <div>
+                            <![endif]--> 
+                <table align="center" border="0" cellpadding="0" cellspacing="0" class="container ml-4" style="color:#515856; min-width:640px; width:640px"> 
+                 <tbody> 
+                  <tr> 
+                   <td>&nbsp;</td> 
+                  </tr> 
+                  <tr> 
+                   <td> 
+                    <table border="0" cellpadding="0" cellspacing="0" class="container" style="width:640px"> 
+                     <tbody> 
+                      <tr> 
+                       <td>&nbsp;</td> 
+                       <td> 
+                        <table border="0" cellpadding="0" cellspacing="0" style="width:100%"> 
+                         <tbody> 
+                          <tr> 
+                           <td> <h1 style="text-align:center"><strong>SafeSender</strong></h1> <p style="text-align:center">Este é um email para validar os disparos realizados pelo broker SafeSender.</p> </td> 
+                          </tr> 
+                         </tbody> 
+                        </table> </td> 
+                       <td>&nbsp;</td> 
+                      </tr> 
+                     </tbody> 
+                    </table> </td> 
+                  </tr> 
+                  <tr> 
+                   <td>&nbsp;</td> 
+                  </tr> 
+                 </tbody> 
+                </table> <!--[if gte mso 9]>
+                            </div>
+                            </v:textbox>
+                            </v:rect>
+                            <![endif]--></td> 
+              </tr> 
+             </tbody> 
+            </table> </td> 
+          </tr> 
+         </tbody> 
+        </table> <!--  --><!--  --> 
+        <table align="center" border="0" cellpadding="0" cellspacing="0" class="ml-default" style="width:100%"> 
+         <tbody> 
+          <tr> 
+           <td> 
+            <table align="center" border="0" cellpadding="0" cellspacing="0" class="container ml-6 ml-default-border" style="min-width:640px; width:640px"> 
+             <tbody> 
+              <tr> 
+               <td> 
+                <table align="center" border="0" cellpadding="0" cellspacing="0" style="width:100%"> 
+                 <tbody> 
+                  <tr> 
+                   <td style="text-align:left!important; vertical-align:top"> <p style="text-align:center">Broker</p> <p style="text-align:center">SafeSender</p> </td> 
+                   <td>&nbsp;</td> 
+                   <td style="text-align:left!important; vertical-align:top"> <p>Você está recebendo este e-mail porque foi realizada uma solicitação na sua empresa para os colaboradores receberem ou então você está em alguma lista de emails para testes de recebimento de um novo broker de e-mail.</p> 
+                    <table border="0" cellpadding="0" cellspacing="0" style="width:100%"> 
+                     <tbody> 
+                      <tr> 
+                       <td>Caso seja perguntado, por favor, confirme o recebimento.</td> 
+                      </tr> 
+                      <tr> 
+                       <td>&nbsp;</td> 
+                      </tr> 
+                     </tbody> 
+                    </table> </td> 
+                  </tr> 
+                 </tbody> 
+                </table> </td> 
+              </tr> 
+              <tr> 
+               <td>&nbsp;</td> 
+              </tr> 
+             </tbody> 
+            </table> </td> 
+          </tr> 
+         </tbody> 
+        </table> </td> 
+      </tr> 
+     </tbody> 
+    </table> </td> 
+  </tr> 
+ </tbody> 
+</table>
+<div style="color:transparent;visibility:hidden;opacity:0;font-size:0px;border:0;max-height:1px;width:1px;margin:0px;padding:0px;border-width:0px!important;display:none!important;line-height:0px!important;">
+ <img border="0" width="1" height="1" src="https://link.safesender.tech/opened/001@20231025223003797645c@u0001.wl001">
+</div>
+<img border="0" width="1" height="1" alt="" src="https://link.safesender.tech/opened/001@20231025223003797645c@u0001.wl001">
+2023-10-25T22:30:49.985-03:00  INFO 46132 --- [scheduling-1] br.com.rti.service.CacheService          : renew cache getClientList()
+2023-10-25T22:30:49.985-03:00  INFO 46132 --- [scheduling-1] br.com.rti.service.ClientService         : findAll
+2023-10-25T22:31:50.006-03:00  INFO 46132 --- [scheduling-1] br.com.rti.service.CacheService          : renew cache getClientList()
+2023-10-25T22:31:50.007-03:00  INFO 46132 --- [scheduling-1] br.com.rti.service.ClientService         : findAll
+2023-10-25T22:32:07.266-03:00 ERROR 46132 --- [Camel (camel-1) thread #5 - Delay] b.c.r.a.s.MailSenderSpringService        : Pool de threads não terminou
+2023-10-25T22:32:07.267-03:00  INFO 46132 --- [Camel (camel-1) thread #5 - Delay] b.c.r.a.s.MailSenderSpringService        : FIM sendMail LOOP - 2023-10-25T22:32:07.267195600 - totalTime(milli): 120006 - totalTime(seconds): 120
+2023-10-25T22:32:07.267-03:00  INFO 46132 --- [Camel (camel-1) thread #5 - Delay] b.c.r.a.s.MailSenderSpringService        : INICIO sendToDiscard: 0
+2023-10-25T22:32:07.272-03:00  INFO 46132 --- [Camel (camel-1) thread #5 - Delay] b.c.r.a.s.MailSenderSpringService        : FIM sendToDiscard: 0
+2023-10-25T22:32:07.272-03:00  INFO 46132 --- [Camel (camel-1) thread #5 - Delay] r.a.p.MensagemSenderBatchSpringProcessor : FIM - mailSenderSpringService 1 mensagens
+2023-10-25T22:32:33.720-03:00  INFO 46132 --- [pool-7-thread-1] b.c.r.a.s.MailSenderSpringService        : <div style="color:transparent;visibility:hidden;opacity:0;font-size:0px;border:0;max-height:1px;width:1px;margin:0px;padding:0px;border-width:0px!important;display:none!important;line-height:0px!important;">
+ <img border="0" width="1" height="1" src="https://link.safesender.tech/opened/001@20231025223003797645c@u0001.wl001">
+</div>
+<table align="center" border="0" cellpadding="0" cellspacing="0" style="width:100%"> 
+ <tbody> 
+  <tr> 
+   <td style="vertical-align:top"> 
+    <table align="center" border="1" cellpadding="0" cellspacing="0" class="wrapper" style="border-collapse:separate!important; border-radius:8px; border:1px solid #eaeced; max-width:640px; overflow:hidden; width:640px"> 
+     <tbody> 
+      <tr> 
+       <td><!--  --> 
+        <table align="center" border="0" cellpadding="0" cellspacing="0" class="ml-default" style="width:100%"> 
+         <tbody> 
+          <tr> 
+           <td> 
+            <table align="center" border="0" cellpadding="0" cellspacing="0" class="ml-default-border" style="width:100%"> 
+             <tbody> 
+              <tr> 
+               <td style="vertical-align:top"><!--[if gte mso 9]>
+                            <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:640px; background-color:none;">
+                                <v:fill src="" type="frame" aspect="atleast" color="none" />
+                                <v:textbox style="mso-fit-shape-to-text:true" inset="0,0,0,0">
+                                    <div>
+                            <![endif]--> 
+                <table align="center" border="0" cellpadding="0" cellspacing="0" class="container ml-4" style="color:#515856; min-width:640px; width:640px"> 
+                 <tbody> 
+                  <tr> 
+                   <td>&nbsp;</td> 
+                  </tr> 
+                  <tr> 
+                   <td> 
+                    <table border="0" cellpadding="0" cellspacing="0" class="container" style="width:640px"> 
+                     <tbody> 
+                      <tr> 
+                       <td>&nbsp;</td> 
+                       <td> 
+                        <table border="0" cellpadding="0" cellspacing="0" style="width:100%"> 
+                         <tbody> 
+                          <tr> 
+                           <td> <h1 style="text-align:center"><strong>SafeSender</strong></h1> <p style="text-align:center">Este é um email para validar os disparos realizados pelo broker SafeSender.</p> </td> 
+                          </tr> 
+                         </tbody> 
+                        </table> </td> 
+                       <td>&nbsp;</td> 
+                      </tr> 
+                     </tbody> 
+                    </table> </td> 
+                  </tr> 
+                  <tr> 
+                   <td>&nbsp;</td> 
+                  </tr> 
+                 </tbody> 
+                </table> <!--[if gte mso 9]>
+                            </div>
+                            </v:textbox>
+                            </v:rect>
+                            <![endif]--></td> 
+              </tr> 
+             </tbody> 
+            </table> </td> 
+          </tr> 
+         </tbody> 
+        </table> <!--  --><!--  --> 
+        <table align="center" border="0" cellpadding="0" cellspacing="0" class="ml-default" style="width:100%"> 
+         <tbody> 
+          <tr> 
+           <td> 
+            <table align="center" border="0" cellpadding="0" cellspacing="0" class="container ml-6 ml-default-border" style="min-width:640px; width:640px"> 
+             <tbody> 
+              <tr> 
+               <td> 
+                <table align="center" border="0" cellpadding="0" cellspacing="0" style="width:100%"> 
+                 <tbody> 
+                  <tr> 
+                   <td style="text-align:left!important; vertical-align:top"> <p style="text-align:center">Broker</p> <p style="text-align:center">SafeSender</p> </td> 
+                   <td>&nbsp;</td> 
+                   <td style="text-align:left!important; vertical-align:top"> <p>Você está recebendo este e-mail porque foi realizada uma solicitação na sua empresa para os colaboradores receberem ou então você está em alguma lista de emails para testes de recebimento de um novo broker de e-mail.</p> 
+                    <table border="0" cellpadding="0" cellspacing="0" style="width:100%"> 
+                     <tbody> 
+                      <tr> 
+                       <td>Caso seja perguntado, por favor, confirme o recebimento.</td> 
+                      </tr> 
+                      <tr> 
+                       <td>&nbsp;</td> 
+                      </tr> 
+                     </tbody> 
+                    </table> </td> 
+                  </tr> 
+                 </tbody> 
+                </table> </td> 
+              </tr> 
+              <tr> 
+               <td>&nbsp;</td> 
+              </tr> 
+             </tbody> 
+            </table> </td> 
+          </tr> 
+         </tbody> 
+        </table> </td> 
+      </tr> 
+     </tbody> 
+    </table> </td> 
+  </tr> 
+ </tbody> 
+</table>
+<img border="0" width="1" height="1" alt="" src="https://link.safesender.tech/opened/001@20231025223003797645c@u0001.wl001">
+2023-10-25T22:32:50.028-03:00  INFO 46132 --- [scheduling-1] br.com.rti.service.CacheService          : renew cache getClientList()
+2023-10-25T22:32:50.028-03:00  INFO 46132 --- [scheduling-1] br.com.rti.service.ClientService         : findAll
+2023-10-25T22:33:42.990-03:00  INFO 46132 --- [RMI TCP Connection(12)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-10-25T22:33:43.044-03:00  INFO 46132 --- [RMI TCP Connection(12)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-10-25T22:33:43.046-03:00  INFO 46132 --- [RMI TCP Connection(12)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-10-25T22:33:43.060-03:00  INFO 46132 --- [RMI TCP Connection(12)-127.0.0.1] o.a.c.impl.engine.AbstractCamelContext   : Apache Camel 4.0.1 (camel-1) is shutting down (timeout:45s)
+2023-10-25T22:33:43.078-03:00  INFO 46132 --- [Camel (camel-1) thread #6 - ShutdownTask] .c.s.CamelDirectMessageListenerContainer : Successfully waited for consumers to finish.
+2023-10-25T22:33:43.088-03:00  INFO 46132 --- [RMI TCP Connection(12)-127.0.0.1] o.a.c.impl.engine.AbstractCamelContext   : Routes stopped (stopped:3)
+2023-10-25T22:33:43.089-03:00  INFO 46132 --- [RMI TCP Connection(12)-127.0.0.1] o.a.c.impl.engine.AbstractCamelContext   :     Stopped EmailToSaveAndSendRabbitMqProducerRoute (direct://emailToSaveAndSend)
+2023-10-25T22:33:43.089-03:00  INFO 46132 --- [RMI TCP Connection(12)-127.0.0.1] o.a.c.impl.engine.AbstractCamelContext   :     Stopped EmailToSaveAndSendRabbitMqConsumerRoute (spring-rabbitmq://smtp.exchange)
+2023-10-25T22:33:43.089-03:00  INFO 46132 --- [RMI TCP Connection(12)-127.0.0.1] o.a.c.impl.engine.AbstractCamelContext   :     Stopped WebhookDiscardedToSaveRabbitMqProducerRoute (direct://webhookDiscarded)
+2023-10-25T22:33:43.097-03:00  INFO 46132 --- [RMI TCP Connection(12)-127.0.0.1] o.a.c.impl.engine.AbstractCamelContext   : Apache Camel 4.0.1 (camel-1) shutdown in 36ms (uptime:3m53s)
+2023-10-25T22:33:43.122-03:00  INFO 46132 --- [RMI TCP Connection(12)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-25T22:33:43.125-03:00  INFO 46132 --- [RMI TCP Connection(12)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : SpringBootJPAHikariCP - Shutdown initiated...
+2023-10-25T22:33:43.135-03:00  INFO 46132 --- [RMI TCP Connection(12)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : SpringBootJPAHikariCP - Shutdown completed.
+2023-10-25T22:34:58.824-03:00  INFO 37620 --- [main] b.c.r.a.SafesenderApiSmtpApplication     : Starting SafesenderApiSmtpApplication using Java 17.0.3.1 with PID 37620 (C:\Git\rti\safesender-systems\safesender-api-smtp\target\classes started by rafae in C:\Git\rti\safesender-systems\safesender-api-smtp)
+2023-10-25T22:34:58.828-03:00  INFO 37620 --- [main] b.c.r.a.SafesenderApiSmtpApplication     : No active profile set, falling back to 1 default profile: "default"
+2023-10-25T22:35:00.103-03:00  INFO 37620 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-25T22:35:00.104-03:00  INFO 37620 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-25T22:35:00.299-03:00  INFO 37620 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 172 ms. Found 7 JPA repository interfaces.
+2023-10-25T22:35:01.260-03:00  INFO 37620 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-25T22:35:01.260-03:00  INFO 37620 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-10-25T22:35:01.286-03:00  INFO 37620 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 25 ms. Found 0 JDBC repository interfaces.
+2023-10-25T22:35:02.051-03:00  INFO 37620 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-10-25T22:35:02.122-03:00  INFO 37620 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-10-25T22:35:02.789-03:00  INFO 37620 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8686 (http)
+2023-10-25T22:35:02.809-03:00  INFO 37620 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-25T22:35:02.811-03:00  INFO 37620 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-25T22:35:03.042-03:00  INFO 37620 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-25T22:35:03.043-03:00  INFO 37620 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4104 ms
+2023-10-25T22:35:03.466-03:00  INFO 37620 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-25T22:35:03.631-03:00  INFO 37620 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-10-25T22:35:03.638-03:00  INFO 37620 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-10-25T22:35:04.187-03:00  INFO 37620 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-25T22:35:04.552-03:00  INFO 37620 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-25T22:35:04.603-03:00  INFO 37620 --- [main] com.zaxxer.hikari.HikariDataSource       : SpringBootJPAHikariCP - Starting...
+2023-10-25T22:35:05.171-03:00  INFO 37620 --- [main] com.zaxxer.hikari.pool.HikariPool        : SpringBootJPAHikariCP - Added connection org.postgresql.jdbc.PgConnection@3a9c11fb
+2023-10-25T22:35:05.177-03:00  INFO 37620 --- [main] com.zaxxer.hikari.HikariDataSource       : SpringBootJPAHikariCP - Start completed.
+2023-10-25T22:35:06.368-03:00  INFO 37620 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-25T22:35:08.892-03:00  INFO 37620 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-25T22:35:09.270-03:00  INFO 37620 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-25T22:35:11.606-03:00  WARN 37620 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-25T22:35:13.474-03:00  WARN 37620 --- [main] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: org.springframework.amqp.rabbit.core.RabbitAdmin
+2023-10-25T22:35:13.569-03:00  INFO 37620 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8686 (http) with context path ''
+2023-10-25T22:35:13.861-03:00  INFO 37620 --- [scheduling-1] br.com.rti.service.CacheService          : renew cache getClientList()
+2023-10-25T22:35:13.864-03:00  INFO 37620 --- [scheduling-1] br.com.rti.service.ClientService         : findAll
+2023-10-25T22:35:14.308-03:00  INFO 37620 --- [main] o.a.c.support.LifecycleStrategySupport   : Autowired property: amqpAdmin on component: spring-rabbitmq as exactly one instance of type: org.springframework.amqp.core.AmqpAdmin (org.springframework.amqp.rabbit.core.RabbitAdmin) found in the registry
+2023-10-25T22:35:14.309-03:00  INFO 37620 --- [main] o.a.c.support.LifecycleStrategySupport   : Autowired property: connectionFactory on component: spring-rabbitmq as exactly one instance of type: org.springframework.amqp.rabbit.connection.ConnectionFactory (org.springframework.amqp.rabbit.connection.CachingConnectionFactory) found in the registry
+2023-10-25T22:35:14.488-03:00  INFO 37620 --- [main] o.a.c.impl.engine.AbstractCamelContext   : Apache Camel 4.0.1 (camel-1) is starting
+2023-10-25T22:35:14.504-03:00  INFO 37620 --- [main] o.a.c.p.aggregate.AggregateProcessor     : Defaulting to MemoryAggregationRepository
+2023-10-25T22:35:14.505-03:00  INFO 37620 --- [main] o.a.c.p.aggregate.AggregateProcessor     : Using CompletionTimeout to trigger after 1000 millis of inactivity.
+2023-10-25T22:35:14.578-03:00  INFO 37620 --- [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:55601]
+2023-10-25T22:35:14.797-03:00  INFO 37620 --- [main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#7b13ae73:0/SimpleConnection@5dd3841 [delegate=amqp://pmtaqueue@127.0.0.1:55601/, localPort=49636]
+2023-10-25T22:35:14.871-03:00  INFO 37620 --- [main] o.a.c.c.s.SpringRabbitMQEndpoint         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (smtp.EmailToSaveAndSend.Queue)durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2023-10-25T22:35:14.894-03:00  INFO 37620 --- [main] .c.s.CamelDirectMessageListenerContainer : Container initialized for queues: [smtp.EmailToSaveAndSend.Queue]
+2023-10-25T22:35:14.897-03:00  INFO 37620 --- [main] o.a.c.impl.engine.AbstractCamelContext   : Routes startup (started:3)
+2023-10-25T22:35:14.897-03:00  INFO 37620 --- [main] o.a.c.impl.engine.AbstractCamelContext   :     Started WebhookDiscardedToSaveRabbitMqProducerRoute (direct://webhookDiscarded)
+2023-10-25T22:35:14.898-03:00  INFO 37620 --- [main] o.a.c.impl.engine.AbstractCamelContext   :     Started EmailToSaveAndSendRabbitMqProducerRoute (direct://emailToSaveAndSend)
+2023-10-25T22:35:14.898-03:00  INFO 37620 --- [main] o.a.c.impl.engine.AbstractCamelContext   :     Started EmailToSaveAndSendRabbitMqConsumerRoute (spring-rabbitmq://smtp.exchange)
+2023-10-25T22:35:14.898-03:00  INFO 37620 --- [main] o.a.c.impl.engine.AbstractCamelContext   : Apache Camel 4.0.1 (camel-1) started in 409ms (build:0ms init:0ms start:409ms)
+2023-10-25T22:35:14.907-03:00  INFO 37620 --- [main] b.c.r.a.SafesenderApiSmtpApplication     : Started SafesenderApiSmtpApplication in 16.783 seconds (process running for 18.604)
+2023-10-25T22:35:14.925-03:00  INFO 37620 --- [not.a.Spring.bean-1] .c.s.CamelDirectMessageListenerContainer : SimpleConsumer [queue=smtp.EmailToSaveAndSend.Queue, index=0, consumerTag=amq.ctag-PKZnzuKdT2l56RouBGAEDQ identity=336c6ad5] started
+2023-10-25T22:35:19.360-03:00  INFO 37620 --- [http-nio-8686-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-25T22:35:19.360-03:00  INFO 37620 --- [http-nio-8686-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-25T22:35:19.363-03:00  INFO 37620 --- [http-nio-8686-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-10-25T22:35:19.594-03:00  INFO 37620 --- [http-nio-8686-exec-1] b.c.r.a.c.MailSenderController           : /one internalid:001@202310252235195912sq0@u0001.wl001 | uniqueid:001 | sender:u0001.wl001
+2023-10-25T22:35:22.539-03:00  INFO 37620 --- [Camel (camel-1) thread #5 - Delay] b.c.r.a.p.MailSaveBatchProcessor         : INICIO - MailSaveProcessor.process()
+2023-10-25T22:35:22.539-03:00  INFO 37620 --- [Camel (camel-1) thread #5 - Delay] b.c.r.a.p.MailSaveBatchProcessor         : INICIO - MailSaveProcessor 1 mensagens
+2023-10-25T22:35:22.540-03:00  INFO 37620 --- [Camel (camel-1) thread #5 - Delay] br.com.rti.service.MailSaveService       : INICIO saveMail LOOP - 2023-10-25T22:35:22.539787900 
+2023-10-25T22:35:22.728-03:00  INFO 37620 --- [Camel (camel-1) thread #5 - Delay] br.com.rti.service.MailSaveService       : FIM saveMail LOOP - 2023-10-25T22:35:22.728751300 - totalTime(milli): 188 - totalTime(seconds): 0
+2023-10-25T22:35:22.729-03:00  INFO 37620 --- [Camel (camel-1) thread #5 - Delay] b.c.r.a.p.MailSaveBatchProcessor         : FIM - MailSaveProcessor 1 mensagens
+2023-10-25T22:35:22.729-03:00  INFO 37620 --- [Camel (camel-1) thread #5 - Delay] r.a.p.MensagemSenderBatchSpringProcessor : INICIO - MensagemBatchSenderSpringProcessor.process()
+2023-10-25T22:35:22.730-03:00  INFO 37620 --- [Camel (camel-1) thread #5 - Delay] r.a.p.MensagemSenderBatchSpringProcessor : INICIO - mailSenderSpringService 1 mensagens
+2023-10-25T22:35:22.730-03:00  INFO 37620 --- [Camel (camel-1) thread #5 - Delay] b.c.r.a.s.MailSenderSpringService        : INICIO sendMail LOOP - 2023-10-25T22:35:22.730614300 
+2023-10-25T22:35:28.833-03:00  INFO 37620 --- [pool-7-thread-1] b.c.r.a.s.MailSenderSpringService        : <!--[if !mso]>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <![endif]--><!--[if mso]>
+    <style>
+        * { font-family: sans-serif !important; }
+    </style>
+    <noscript>
+        <xml>
+            <o:OfficeDocumentSettings>
+                <o:PixelsPerInch>96</o:PixelsPerInch>
+            </o:OfficeDocumentSettings>
+        </xml>
+    </noscript>
+    <![endif]--><!--[if gte mso 9]>
+        <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t" if="variable.bodyBackgroundImage.value">
+            <v:fill type="tile" src="" color="#F4F7FA"/>
+        </v:background>
+        <![endif]-->
+<html>
+ <head></head>
+ <body>
+  <div style="color:transparent;visibility:hidden;opacity:0;font-size:0px;border:0;max-height:1px;width:1px;margin:0px;padding:0px;border-width:0px!important;display:none!important;line-height:0px!important;">
+   <img border="0" width="1" height="1" src="https://link.safesender.tech/opened/001@202310252235195912sq0@u0001.wl001">
+  </div>
+  <table align="center" border="0" cellpadding="0" cellspacing="0" style="width:100%"> 
+   <tbody> 
+    <tr> 
+     <td style="vertical-align:top"> 
+      <table align="center" border="1" cellpadding="0" cellspacing="0" class="wrapper" style="border-collapse:separate!important; border-radius:8px; border:1px solid #eaeced; max-width:640px; overflow:hidden; width:640px"> 
+       <tbody> 
+        <tr> 
+         <td><!--  --> 
+          <table align="center" border="0" cellpadding="0" cellspacing="0" class="ml-default" style="width:100%"> 
+           <tbody> 
+            <tr> 
+             <td> 
+              <table align="center" border="0" cellpadding="0" cellspacing="0" class="ml-default-border" style="width:100%"> 
+               <tbody> 
+                <tr> 
+                 <td style="vertical-align:top"><!--[if gte mso 9]>
+                            <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:640px; background-color:none;">
+                                <v:fill src="" type="frame" aspect="atleast" color="none" />
+                                <v:textbox style="mso-fit-shape-to-text:true" inset="0,0,0,0">
+                                    <div>
+                            <![endif]--> 
+                  <table align="center" border="0" cellpadding="0" cellspacing="0" class="container ml-4" style="color:#515856; min-width:640px; width:640px"> 
+                   <tbody> 
+                    <tr> 
+                     <td>&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td> 
+                      <table border="0" cellpadding="0" cellspacing="0" class="container" style="width:640px"> 
+                       <tbody> 
+                        <tr> 
+                         <td>&nbsp;</td> 
+                         <td> 
+                          <table border="0" cellpadding="0" cellspacing="0" style="width:100%"> 
+                           <tbody> 
+                            <tr> 
+                             <td> <h1 style="text-align:center"><strong>SafeSender</strong></h1> <p style="text-align:center">Este é um email para validar os disparos realizados pelo broker SafeSender.</p> </td> 
+                            </tr> 
+                           </tbody> 
+                          </table> </td> 
+                         <td>&nbsp;</td> 
+                        </tr> 
+                       </tbody> 
+                      </table> </td> 
+                    </tr> 
+                    <tr> 
+                     <td>&nbsp;</td> 
+                    </tr> 
+                   </tbody> 
+                  </table> <!--[if gte mso 9]>
+                            </div>
+                            </v:textbox>
+                            </v:rect>
+                            <![endif]--></td> 
+                </tr> 
+               </tbody> 
+              </table> </td> 
+            </tr> 
+           </tbody> 
+          </table> <!--  --><!--  --> 
+          <table align="center" border="0" cellpadding="0" cellspacing="0" class="ml-default" style="width:100%"> 
+           <tbody> 
+            <tr> 
+             <td> 
+              <table align="center" border="0" cellpadding="0" cellspacing="0" class="container ml-6 ml-default-border" style="min-width:640px; width:640px"> 
+               <tbody> 
+                <tr> 
+                 <td> 
+                  <table align="center" border="0" cellpadding="0" cellspacing="0" style="width:100%"> 
+                   <tbody> 
+                    <tr> 
+                     <td style="text-align:left!important; vertical-align:top"> <p style="text-align:center">Broker</p> <p style="text-align:center">SafeSender</p> </td> 
+                     <td>&nbsp;</td> 
+                     <td style="text-align:left!important; vertical-align:top"> <p>Você está recebendo este e-mail porque foi realizada uma solicitação na sua empresa para os colaboradores receberem ou então você está em alguma lista de emails para testes de recebimento de um novo broker de e-mail.</p> 
+                      <table border="0" cellpadding="0" cellspacing="0" style="width:100%"> 
+                       <tbody> 
+                        <tr> 
+                         <td>Caso seja perguntado, por favor, confirme o recebimento.</td> 
+                        </tr> 
+                        <tr> 
+                         <td>&nbsp;</td> 
+                        </tr> 
+                       </tbody> 
+                      </table> </td> 
+                    </tr> 
+                   </tbody> 
+                  </table> </td> 
+                </tr> 
+                <tr> 
+                 <td>&nbsp;</td> 
+                </tr> 
+               </tbody> 
+              </table> </td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+        </tr> 
+       </tbody> 
+      </table> </td> 
+    </tr> 
+   </tbody> 
+  </table>
+  <img border="0" width="1" height="1" alt="" src="https://link.safesender.tech/opened/001@202310252235195912sq0@u0001.wl001">
+ </body>
+</html>
+2023-10-25T22:36:14.471-03:00  INFO 37620 --- [scheduling-1] br.com.rti.service.CacheService          : renew cache getClientList()
+2023-10-25T22:36:14.471-03:00  INFO 37620 --- [scheduling-1] br.com.rti.service.ClientService         : findAll
+2023-10-25T22:37:14.484-03:00  INFO 37620 --- [scheduling-1] br.com.rti.service.CacheService          : renew cache getClientList()
+2023-10-25T22:37:14.484-03:00  INFO 37620 --- [scheduling-1] br.com.rti.service.ClientService         : findAll
+2023-10-25T22:37:16.879-03:00  INFO 37620 --- [RMI TCP Connection(10)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-10-25T22:37:16.933-03:00  INFO 37620 --- [RMI TCP Connection(10)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-10-25T22:37:16.936-03:00  INFO 37620 --- [RMI TCP Connection(10)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-10-25T22:37:16.951-03:00  INFO 37620 --- [RMI TCP Connection(10)-127.0.0.1] o.a.c.impl.engine.AbstractCamelContext   : Apache Camel 4.0.1 (camel-1) is shutting down (timeout:45s)
+2023-10-25T22:37:16.966-03:00  INFO 37620 --- [Camel (camel-1) thread #6 - ShutdownTask] .c.s.CamelDirectMessageListenerContainer : Successfully waited for consumers to finish.
+2023-10-25T22:37:16.974-03:00  INFO 37620 --- [Camel (camel-1) thread #5 - Delay] b.c.r.a.s.MailSenderSpringService        : FIM sendMail LOOP - 2023-10-25T22:37:16.974329200 - totalTime(milli): 114243 - totalTime(seconds): 114
+2023-10-25T22:37:16.975-03:00  INFO 37620 --- [Camel (camel-1) thread #5 - Delay] b.c.r.a.s.MailSenderSpringService        : INICIO sendToDiscard: 0
+2023-10-25T22:37:16.975-03:00  INFO 37620 --- [RMI TCP Connection(10)-127.0.0.1] o.a.c.impl.engine.AbstractCamelContext   : Routes stopped (stopped:3)
+2023-10-25T22:37:16.975-03:00  INFO 37620 --- [RMI TCP Connection(10)-127.0.0.1] o.a.c.impl.engine.AbstractCamelContext   :     Stopped EmailToSaveAndSendRabbitMqConsumerRoute (spring-rabbitmq://smtp.exchange)
+2023-10-25T22:37:16.975-03:00  INFO 37620 --- [RMI TCP Connection(10)-127.0.0.1] o.a.c.impl.engine.AbstractCamelContext   :     Stopped EmailToSaveAndSendRabbitMqProducerRoute (direct://emailToSaveAndSend)
+2023-10-25T22:37:16.975-03:00  INFO 37620 --- [RMI TCP Connection(10)-127.0.0.1] o.a.c.impl.engine.AbstractCamelContext   :     Stopped WebhookDiscardedToSaveRabbitMqProducerRoute (direct://webhookDiscarded)
+2023-10-25T22:37:16.979-03:00  INFO 37620 --- [Camel (camel-1) thread #5 - Delay] b.c.r.a.s.MailSenderSpringService        : FIM sendToDiscard: 0
+2023-10-25T22:37:16.980-03:00  INFO 37620 --- [Camel (camel-1) thread #5 - Delay] r.a.p.MensagemSenderBatchSpringProcessor : FIM - mailSenderSpringService 1 mensagens
+2023-10-25T22:37:16.980-03:00  WARN 37620 --- [RMI TCP Connection(10)-127.0.0.1] o.a.c.i.e.DefaultInflightRepository      : Shutting down while there are still 1 inflight exchanges.
+2023-10-25T22:37:16.984-03:00  INFO 37620 --- [RMI TCP Connection(10)-127.0.0.1] o.a.c.impl.engine.AbstractCamelContext   : Apache Camel 4.0.1 (camel-1) shutdown in 32ms (uptime:2m2s)
+2023-10-25T22:37:17.014-03:00  INFO 37620 --- [RMI TCP Connection(10)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-25T22:37:17.019-03:00  INFO 37620 --- [RMI TCP Connection(10)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : SpringBootJPAHikariCP - Shutdown initiated...
+2023-10-25T22:37:17.039-03:00  INFO 37620 --- [RMI TCP Connection(10)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : SpringBootJPAHikariCP - Shutdown completed.
