@@ -1,6 +1,8 @@
 package br.com.rti.service;
 
 import java.io.File;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Optional;
 
 import org.apache.camel.Produce;
@@ -10,6 +12,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.util.ObjectUtils;
 
+import br.com.rti.domain.dtos.restapi.MailSenderAttachmentRequestDto;
 import br.com.rti.domain.dtos.restapi.MailSenderRequestDto;
 import br.com.rti.domain.dtos.restapi.MailSenderResponseDto;
 import br.com.rti.domain.dtos.restapi.SenderEntityDto;
@@ -45,8 +48,11 @@ public class MailSenderToQueueDirectService {
 		
 		producerTemplate.asyncSendBody(producerTemplate.getDefaultEndpoint(), emailIn);
 
+		List<MailSenderAttachmentRequestDto> attachments = emailIn.getAttachments();
+		attachments = attachments == null ? new ArrayList<>() : attachments;
+		
 		return new MailSenderResponseDto(emailIn.getUniqueid(), emailIn.getFromName(),
-				emailIn.getFromMail(), emailIn.getToMail(), emailIn.getSubject(), emailIn.getAttachments().size());
+				emailIn.getFromMail(), emailIn.getToMail(), emailIn.getSubject(), attachments.size());
 
 	}
 

@@ -33,6 +33,8 @@ public class WebhookOpenedController {
 
 	private static final String OPEN = "open";
 
+	private static final String MONITORING_ENVID = "jj0122@202310250315277372ey6@u0001.wl001";
+
     @GetMapping(value = "/opened/{internalid}")
     public void emailOpened(@PathVariable("internalid") String internalid, HttpServletRequest request, HttpServletResponse response) {
     	
@@ -43,7 +45,10 @@ public class WebhookOpenedController {
         			.dlvType(OPEN)
         			.envId(internalid)
         			.build();
-			producerTemplate.asyncSendBody(producerTemplate.getDefaultEndpoint(), event );
+        	
+        	if(!isMonitoring(event)) {
+        		producerTemplate.asyncSendBody(producerTemplate.getDefaultEndpoint(), event );
+        	}
             
         } catch (Exception e) {
             log.error("EMAIL OPENED", e);
@@ -54,7 +59,16 @@ public class WebhookOpenedController {
         log.info("FIM /webhook opened:{}", internalid);
     }
     
-    private void returnBlank(HttpServletResponse response) {
+    private boolean isMonitoring(EmailEventPmtaDto event) {
+    	if(MONITORING_ENVID.equals(event.getEnvId())) {
+    		log.info("--MONITORING_ENVID OK--");
+    		return true;
+    	}
+    		
+		return false;
+	}
+
+	private void returnBlank(HttpServletResponse response) {
 		InputStream in = new ByteArrayInputStream(SINGLE_PIXEL_TRANSPARENT_SHIM_BYTES);
 		response.setContentType(MediaType.IMAGE_GIF_VALUE);
 		try {

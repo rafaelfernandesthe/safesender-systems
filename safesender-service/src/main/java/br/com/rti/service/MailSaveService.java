@@ -55,13 +55,15 @@ public class MailSaveService {
 			persistenceRequest.setEmailContent(emailContent);
 	
 			List<EmailAttachmentEntity> attachments = new ArrayList<>();
-			emailRequest.getAttachments().forEach(a -> {
-				EmailAttachmentEntity item = new EmailAttachmentEntity();
-				item.setEmail(persistenceRequest);
-				item.setFileName(a.getFileName());
-				item.setFileContent(a.getFileContentBase64().getBytes());
-				attachments.add(item);
-			});
+			if(emailRequest.getAttachments() != null && !emailRequest.getAttachments().isEmpty()) {
+				emailRequest.getAttachments().forEach(a -> {
+					EmailAttachmentEntity item = new EmailAttachmentEntity();
+					item.setEmail(persistenceRequest);
+					item.setFileName(a.getFileName());
+					item.setFileContent(a.getFileContentBase64().getBytes());
+					attachments.add(item);
+				});
+			}
 			persistenceRequest.setEmailAttachments(attachments);
 			persistenceRequest.setAttachments(attachments.size());
 			

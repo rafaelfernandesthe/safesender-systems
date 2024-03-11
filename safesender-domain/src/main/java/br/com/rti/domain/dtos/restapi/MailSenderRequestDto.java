@@ -1,16 +1,16 @@
 package br.com.rti.domain.dtos.restapi;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import com.google.gson.annotations.SerializedName;
-
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;
 import lombok.Data;
+import lombok.NoArgsConstructor;
+
+import java.util.List;
 
 @Data
+@NoArgsConstructor
 public class MailSenderRequestDto {
 	
 	private boolean toValidation;
@@ -51,6 +51,6 @@ public class MailSenderRequestDto {
 
 	private String html;
 
-	private List<MailSenderAttachmentRequestDto> attachments = new ArrayList<MailSenderAttachmentRequestDto>();
+	private List<MailSenderAttachmentRequestDto> attachments;
 
 }

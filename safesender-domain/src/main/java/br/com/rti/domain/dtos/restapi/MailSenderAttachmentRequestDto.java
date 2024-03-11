@@ -1,15 +1,16 @@
 package br.com.rti.domain.dtos.restapi;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
-
+import com.google.gson.annotations.SerializedName;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Data
+@NoArgsConstructor
 public class MailSenderAttachmentRequestDto {
 
-	@JsonProperty( value = "file_name" )
+	@SerializedName( value = "file_name" )
 	public String fileName;
 
-	@JsonProperty( value = "file_contentBase64" )
+	@SerializedName( value = "file_contentBase64" )
 	public String fileContentBase64;
 }
